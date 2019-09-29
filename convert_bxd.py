@@ -21,15 +21,20 @@ with open(args.o, 'w') as out:
                 voc = line.replace('\n', '').split(dmt)
                 if int(voc[4]) == 1:
                     voc[8] = re.sub(r'\$(\d+)', r'\\g<\1>', voc[8])
-                newLine = voc[7] + '/' + voc[8] + '/'
+                else:
+                	voc[7] = re.sub(r'(\)|\(|\.|\?|\+)', r'\\\1', voc[7])
+                	voc[8] = re.sub(r'\(', r'\(', voc[8])
+                	voc[8] = re.sub(r'\)', r'\)', voc[8])
+
+                newLine = voc[7] + '/s/' + voc[8] + '/s/'
                 if int(voc[5]) == 0:
-                    newLine += 'b/'
+                    newLine += 'b/s/'
                 if int(voc[5]) == 1:
-                    newLine += 'l/'
+                    newLine += 'l/s/'
                 if int(voc[5]) == 2:
-                    newLine += 'r/'
+                    newLine += 'r/s/'
                 if int(voc[5]) == 3:
-                    newLine += 'n/'
+                    newLine += 'n/s/'
                 newLine += voc[3] + '\n'
                 out.write(newLine)
                 if int(voc[6] == 1):
