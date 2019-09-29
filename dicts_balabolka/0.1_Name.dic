@@ -1,0 +1,334 @@
+﻿$Элиш=<phoneme alphabet="x-sampa" ph='"El_jiS'/>
+$Алва=<phoneme alphabet="x-sampa" ph='"alv@'/>
+$Алвы=<phoneme alphabet="x-sampa" ph='"alvI\'/>
+$Алву=<phoneme alphabet="x-sampa" ph='"alvu'/>
+$Алве=<phoneme alphabet="x-sampa" ph='"alv_je'/>
+$Алвой=<phoneme alphabet="x-sampa" ph='"alv@j'/>
+$Кеннет=<phoneme alphabet="x-sampa" ph='k"Enn_jit'/>
+$Кеннета=<phoneme alphabet="x-sampa" ph='k"Enn_jit@'/>
+$Кеннету=<phoneme alphabet="x-sampa" ph='k"Enn_jitu'/>
+$Кеннетом=<phoneme alphabet="x-sampa" ph='k"Enn_jit@m'/>
+$Кеннете=<phoneme alphabet="x-sampa" ph='k"Enn_jit_ji'/>
+$Томас=Томас
+$Кэл=Кэл
+$Тайг=Тайг
+$Джет=Джет
+$Гестоль=Гестоль
+$Каллаган=Каллаган
+$Эмонн=<phoneme alphabet="x-sampa" ph='"Em@nn'/>
+$Эмонна=<phoneme alphabet="x-sampa" ph='"Em@nn@'/>
+$Эмонну=<phoneme alphabet="x-sampa" ph='"Em@nnu'/>
+$Эмонном=<phoneme alphabet="x-sampa" ph='"Em@nn@m'/>
+$Эмонне=<phoneme alphabet="x-sampa" ph='"Em@nn_ji'/>
+$Джудас=<phoneme alphabet="x-sampa" ph='dZ"ud@s'/>
+$Джудаса=<phoneme alphabet="x-sampa" ph='dZ"ud@s@'/>
+$Джудасом=<phoneme alphabet="x-sampa" ph='dZ"ud@s@m'/>
+$Джудасу=<phoneme alphabet="x-sampa" ph='dZ"ud@su'/>
+$Джудасе=<phoneme alphabet="x-sampa" ph='dZ"ud@s_ji'/>
+$Брэндан=<phoneme alphabet="x-sampa" ph='br"End@n'/>
+$Брэндана=<phoneme alphabet="x-sampa" ph='br"End@n@'/>
+$Брэндану=<phoneme alphabet="x-sampa" ph='br"End@nu'/>
+$Брэнданом=<phoneme alphabet="x-sampa" ph='br"End@n@m'/>
+$Брэндане=<phoneme alphabet="x-sampa" ph='br"End@n_ji'/>
+$Морган=Морган
+$Ханрахан=Ханрахан
+$Кларк=Кларк
+$Бриан=Бриан
+$Бран=Бран
+$Колин=<phoneme alphabet="x-sampa" ph='k"ol_jin'/>
+$Колина=<phoneme alphabet="x-sampa" ph='k"ol_jin@'/>
+$Колином=<phoneme alphabet="x-sampa" ph='k"ol_jin@m'/>
+$Колину=<phoneme alphabet="x-sampa" ph='k"ol_jinu'/>
+$Колине=<phoneme alphabet="x-sampa" ph='k"ol_jin_ji'/>
+$Конноли=<phoneme alphabet="x-sampa" ph='k"onn6l_ji'/>
+$Керри=<phoneme alphabet="x-sampa" ph='k"Er_ji'/>
+$Эрк=Эрк
+$Маршейн=<phoneme alphabet="x-sampa" ph='m6rS"Ejn'/>
+$Маршейна=<phoneme alphabet="x-sampa" ph='m6rS"Ejn@'/>
+$Маршейном=<phoneme alphabet="x-sampa" ph='m6rS"Ejn@m'/>
+$Маршейну=<phoneme alphabet="x-sampa" ph='m6rS"Ejnu'/>
+$Маршейне=<phoneme alphabet="x-sampa" ph='m6rS"Ejn_ji'/>
+$Берстолем=<phoneme alphabet="x-sampa" ph='b_j@rst"ol_jim'/>
+$Берстоль=<phoneme alphabet="x-sampa" ph='b_j@rst"ol_j'/>
+$Риан=Риан
+$Терье=<phoneme alphabet="x-sampa" ph='tEr_jj"e'/>
+$Ахерн=<phoneme alphabet="x-sampa" ph='"ah_jern'/>
+$Ахерна=<phoneme alphabet="x-sampa" ph='"ah_jern@'/>
+$Ахерном=<phoneme alphabet="x-sampa" ph='"ah_jern@m'/>
+$Ахерну=<phoneme alphabet="x-sampa" ph='"ah_jernu'/>
+$Ахерне=<phoneme alphabet="x-sampa" ph='"ah_jern_ji'/>
+$Ниалл=Ниалл
+$Ивенн=<phoneme alphabet="x-sampa" ph='iv"Enn'/>
+$Шон=Шон
+$Элиан=Элиан
+$Талис=Талис
+$Грета=<phoneme alphabet="x-sampa" ph='gr"Et@'/>
+$Гретой=<phoneme alphabet="x-sampa" ph='gr"Et@j'/>
+$Грету=<phoneme alphabet="x-sampa" ph='gr"Etu'/>
+$Грете=<phoneme alphabet="x-sampa" ph='gr"Et_j@'/>
+$Греты=<phoneme alphabet="x-sampa" ph='gr"EtI\'/>
+$Ся=Ся
+$Грего=<phoneme alphabet="x-sampa" ph='gr"Eg6\'/>
+$Арментерос=<phoneme alphabet="x-sampa" ph='6rm_j@nt"Er@s'/>
+$Бёрр=Бёрр
+$Хан=Хан
+$Атта=Атта
+$Толливер=Толливер
+$Бакл=Бакл
+$Грегори=<phoneme alphabet="x-sampa" ph='gr"Eg@r_ji'/>
+$Палник=Палник
+$Рэйчел=Рэйчел
+$Майкл=Майкл
+$Уилма=Уилма
+$Камберленд=Камберленд
+$Чарли=Чарли
+$Паноптикон=Паноптикон
+$Лупоглазка=Лупоглазка
+$Спартак=Спартак
+$Амброз=Амброз
+$Питтсбург=Питтсбург
+$Стюарт=<phoneme alphabet="x-sampa" ph='st_ju"art'/>
+$Мэриан=<phoneme alphabet="x-sampa" ph='m"Er_j@6n'/>
+$Робин=Робин
+$Гай=Гай
+$Вейзи=<phoneme alphabet="x-sampa" ph='v"Ejz_ji'/>
+$Гизборн=<phoneme alphabet="x-sampa" ph='g_j"izb@rn'/>
+$Гизборна=<phoneme alphabet="x-sampa" ph='g_j"izb@rn@'/>
+$Гизборне=<phoneme alphabet="x-sampa" ph='g_j"izb@rn_j@'/>
+$Гизборном=<phoneme alphabet="x-sampa" ph='g_j"izb@rn@m'/>
+$Гизборну=<phoneme alphabet="x-sampa" ph='g_j"izb@rnU'/>
+$Гизборны=<phoneme alphabet="x-sampa" ph='g_j"izb@rnI\'/>
+$Гизборнов=<phoneme alphabet="x-sampa" ph='g_j"izb@rn@f'/>
+$Гизборнам=<phoneme alphabet="x-sampa" ph='g_j"izb@rn6m'/>
+$Гизборнами=<phoneme alphabet="x-sampa" ph='g_j"izb@rn@m_j@'/>
+$Гизборнах=<phoneme alphabet="x-sampa" ph='g_j"izb@rn@h'/>
+$Норрис=<phoneme alphabet="x-sampa" ph='n"or:_jis'/>
+$Норриса=<phoneme alphabet="x-sampa" ph='n"or:_jis@'/>
+$Норрисом=<phoneme alphabet="x-sampa" ph='n"or:_jis@m'/>
+$Норрисе=<phoneme alphabet="x-sampa" ph='n"or:_jis_j@'/>
+$Норрису=<phoneme alphabet="x-sampa" ph='n"or:_jisU'/>
+$Джаспер=Джаспер
+$Уорвик=<phoneme alphabet="x-sampa" ph='U"orv_jik'/>
+$Уорвика=<phoneme alphabet="x-sampa" ph='U"orv_jik@'/>
+$Уорвиком=<phoneme alphabet="x-sampa" ph='U"orv_jik@m'/>
+$Уорвику=<phoneme alphabet="x-sampa" ph='U"orv_jikU'/>
+$Уорвике=<phoneme alphabet="x-sampa" ph='U"orv_jik_j@'/>
+$Джак=Джак
+$Гуд=Гуд
+$Алан=<phoneme alphabet="x-sampa" ph='"al6n'/>
+$Алана=<phoneme alphabet="x-sampa" ph='"al6n@'/>
+$Аланом=<phoneme alphabet="x-sampa" ph='"al6n@m'/>
+$Алану=<phoneme alphabet="x-sampa" ph='"al6nU'/>
+$Алане=<phoneme alphabet="x-sampa" ph='"al6n_j@'/>
+$Локсли=<phoneme alphabet="x-sampa" ph='l"oksl_ji'/>
+$Уилл=Уилл
+$Мач=Мач
+$Мача=<phoneme alphabet="x-sampa" ph='m"atS_j@'/>
+$Найтон=<phoneme alphabet="x-sampa" ph='n"ajt@n'/>
+$Найтона=<phoneme alphabet="x-sampa" ph='n"ajt@n@'/>
+$Найтоном=<phoneme alphabet="x-sampa" ph='n"ajt@n@m'/>
+$Найтону=<phoneme alphabet="x-sampa" ph='n"ajt@nU'/>
+$Найтоне=<phoneme alphabet="x-sampa" ph='n"ajt@n_j@'/>
+$Телмер=<phoneme alphabet="x-sampa" ph='t"Elm_j@r'/>
+$Телмера=<phoneme alphabet="x-sampa" ph='t"Elm_j@r@'/>
+$Телмером=<phoneme alphabet="x-sampa" ph='t"Elm_j@r@m'/>
+$Телмеру=<phoneme alphabet="x-sampa" ph='t"Elm_j@rU'/>
+$Телмере=<phoneme alphabet="x-sampa" ph='t"Elm_j@r_j@'/>
+$Палмер=<phoneme alphabet="x-sampa" ph='p"alm_j{r'/>
+$Палмера=<phoneme alphabet="x-sampa" ph='p"alm_j@r@'/>
+$Палмером=<phoneme alphabet="x-sampa" ph='p"alm_j@r@m'/>
+$Палмеру=<phoneme alphabet="x-sampa" ph='p"alm_j@rU'/>
+$Палмере=<phoneme alphabet="x-sampa" ph='p"alm_j@r_j@'/>
+$Стивенс=Стивенс
+$Стивенса=<phoneme alphabet="x-sampa" ph='st_j"iv_j@_\ns@'/>
+$Стивенсу=<phoneme alphabet="x-sampa" ph='st_j"iv_j@_\nsU'/>
+$Стивенсе=<phoneme alphabet="x-sampa" ph='st_j"iv_j@_\ns_j@'/>
+$Ноттингем=<phoneme alphabet="x-sampa" ph='n"ot:_jing_j{m'/>
+$Ноттингема=<phoneme alphabet="x-sampa" ph='n"ot:_jing_j{m@'/>
+$Ноттингемом=<phoneme alphabet="x-sampa" ph='n"ot:_jing_j6m@m'/>
+$Ноттингеме=<phoneme alphabet="x-sampa" ph='n"ot:_jing_j6m_j@'/>
+$Ноттингему=<phoneme alphabet="x-sampa" ph='n"ot:_jing_j6mU'/>
+$Хантингтон=<phoneme alphabet="x-sampa" ph='h"ant_jingt@n'/>
+$Хантингтона=<phoneme alphabet="x-sampa" ph='h"ant_jingt@n@'/>
+$Хантингтоном=<phoneme alphabet="x-sampa" ph='h"ant_jingt@n@m'/>
+$Хантингтону=<phoneme alphabet="x-sampa" ph='h"ant_jingt@nU'/>
+$Хантингтоне=<phoneme alphabet="x-sampa" ph='h"ant_jingt@n_j@'/>
+$Джон=Джон
+$Лондон=Лондон
+$Эдриан=Эдриан
+$Арно=<phoneme alphabet="x-sampa" ph='6rn"o'/>
+$Цисс=Цисс
+$ЭДейл=<phoneme alphabet="x-sampa" ph='%Ed"Ejl'/>
+$ЭДейла=<phoneme alphabet="x-sampa" ph='%Ed"Ejl@'/>
+$ЭДейлом=<phoneme alphabet="x-sampa" ph='%Ed"Ejl@m'/>
+$ЭДейлу=<phoneme alphabet="x-sampa" ph='%Ed"EjlU'/>
+$ЭДейле=<phoneme alphabet="x-sampa" ph='%Ed"Ejl_j@'/>
+$Скарлетт=<phoneme alphabet="x-sampa" ph='sk"Arl_j@t:'/>
+$Скарлетта=<phoneme alphabet="x-sampa" ph='sk"Arl_j@t:@'/>
+$Скарлеттом=<phoneme alphabet="x-sampa" ph='sk"Arl_j@t:@m'/>
+$Скарлетту=<phoneme alphabet="x-sampa" ph='sk"Arl_j@t:U'/>
+$Скарлетте=<phoneme alphabet="x-sampa" ph='sk"Arl_j@t:_j@'/>
+$Марк=Марк
+$Ви=Ви
+$Гилл=Гилл
+$Криспин=<phoneme alphabet="x-sampa" ph='kr_j"isp_jin'/>
+$Криспина=<phoneme alphabet="x-sampa" ph='kr_j"isp_jin@'/>
+$Криспином=<phoneme alphabet="x-sampa" ph='kr_j"isp_jin@m'/>
+$Криспину=<phoneme alphabet="x-sampa" ph='kr_j"isp_jinU'/>
+$Криспине=<phoneme alphabet="x-sampa" ph='kr_j"isp_jin_j@'/>
+$Варгос=Варгос
+$Валерий=Валерий
+$Касия=Касия
+$Мартиниан=<phoneme alphabet="x-sampa" ph='m6rt_jin_ji"an'/>
+$Карулл=Карулл
+$Скортий=<phoneme alphabet="x-sampa" ph='sk"ort_jij'/>
+$Скортия=<phoneme alphabet="x-sampa" ph='sk"ort_jij@'/>
+$Скортием=<phoneme alphabet="x-sampa" ph='sk"ort_jij@m'/>
+$Скортию=<phoneme alphabet="x-sampa" ph='sk"ort_jijU'/>
+$Скортии=<phoneme alphabet="x-sampa" ph='sk"ort_jiji'/>
+$Бонос=Бонос
+$Зотик=Зотик
+$Леонт=Леонт
+$Леонтом=<phoneme alphabet="x-sampa" ph='l_j@"ont@m'/>
+$Джад=Джад
+$Кай=Кай
+$Каем=<phoneme alphabet="x-sampa" ph='k"aj@m'/>
+$Кирос=<phoneme alphabet="x-sampa" ph='k_j"ir6s'/>
+$Кироса=<phoneme alphabet="x-sampa" ph='k_j"ir6s@'/>
+$Киросом=<phoneme alphabet="x-sampa" ph='k_j"ir6s@m'/>
+$Киросу=<phoneme alphabet="x-sampa" ph='k_j"ir6sU'/>
+$Киросе=<phoneme alphabet="x-sampa" ph='k_j"ir6s_j@'/>
+$Пардос=Пардос
+$Аликсана=Аликсана
+$Аликсаной=<phoneme alphabet="x-sampa" ph='6l_jiks"an@j'/>
+$Моракс=<phoneme alphabet="x-sampa" ph='m"or@ks'/>
+$Моракса=<phoneme alphabet="x-sampa" ph='m"or@ks@'/>
+$Мораксу=<phoneme alphabet="x-sampa" ph='m"or@ksU'/>
+$Мораксом=<phoneme alphabet="x-sampa" ph='m"or@ks@m'/>
+$Мораксе=<phoneme alphabet="x-sampa" ph='m"or@ks_j@'/>
+$Тилитик=Тилитик
+$Фотий=<phoneme alphabet="x-sampa" ph='f"ot_jij'/>
+$Фотия=<phoneme alphabet="x-sampa" ph='f"ot_jij@'/>
+$Ширин=Ширин
+$Гезий=Гезий
+$Струмос=Струмос
+$Варенский=Варенский
+$Пертений=Пертений
+$Кресенз=<phoneme alphabet="x-sampa" ph='kr_j@s_j"enz'/>
+$Кресенза=<phoneme alphabet="x-sampa" ph='kr_j@s_j"enz@'/>
+$Кресензом=<phoneme alphabet="x-sampa" ph='kr_j@s_j"enz@m'/>
+$Кресензу=<phoneme alphabet="x-sampa" ph='kr_j@s_j"enzU'/>
+$Кресензе=<phoneme alphabet="x-sampa" ph='kr_j@s_j"enz_j@'/>
+$Стилиана=Стилиана
+$Асторг=Асторг
+$Асторга=<phoneme alphabet="x-sampa" ph='6st"org@'/>
+$Асторгом=<phoneme alphabet="x-sampa" ph='6st"org@m'/>
+$Асторге=<phoneme alphabet="x-sampa" ph='6st"org_j@'/>
+$Асторгу=<phoneme alphabet="x-sampa" ph='6st"orgU'/>
+$Артибас=Артибас
+$Гизелла=<phoneme alphabet="x-sampa" ph='g_jiz"Ell@'/>
+$Гизеллы=<phoneme alphabet="x-sampa" ph='g_jiz"EllI\'/>
+$Гизелле=<phoneme alphabet="x-sampa" ph='g_jiz"Ell_j@'/>
+$Гизеллой=<phoneme alphabet="x-sampa" ph='g_jiz"Ell@j'/>
+$Гизеллу=<phoneme alphabet="x-sampa" ph='g_jiz"EllU'/>
+$Родиас=<phoneme alphabet="x-sampa" ph='r"od_ji@s'/>
+$Родиаса=<phoneme alphabet="x-sampa" ph='r"od_ji@s@'/>
+$Родиасом=<phoneme alphabet="x-sampa" ph='r"od_ji@s@m'/>
+$Родиасу=<phoneme alphabet="x-sampa" ph='r"od_ji@sU'/>
+$Родиасе=<phoneme alphabet="x-sampa" ph='r"od_ji@s_j@'/>
+$Сирос=Сирос
+$Тарас=Тарас
+$Телон=Телон
+$Евтих=Евтих
+$Евтиха=<phoneme alphabet="x-sampa" ph='jevt_j"ih@'/>
+$Евтихом=<phoneme alphabet="x-sampa" ph='jevt_j"ih@m'/>
+$Евтихе=<phoneme alphabet="x-sampa" ph='jevt_j"ih_je'/>
+$Закариос=Закариос
+$Эрит=Эрит
+$Снейп=<phoneme alphabet="x-sampa" ph='sn"Ejp'/>
+$Снейпа=<phoneme alphabet="x-sampa" ph='sn"Ejp6'/>
+$Снейпом=<phoneme alphabet="x-sampa" ph='sn"Ejp@m'/>
+$Снейпу=<phoneme alphabet="x-sampa" ph='sn"EjpU'/>
+$Снейпе=<phoneme alphabet="x-sampa" ph='sn"Ejpe'/>
+$Поппея=Поппея
+$Орион=Орион
+$Дамблдор=Дамблдор
+$Малфой=<phoneme alphabet="x-sampa" ph='m"alf@j'/>
+$Малфоя=<phoneme alphabet="x-sampa" ph='m"alf@j6'/>
+$Малфою=<phoneme alphabet="x-sampa" ph='m"alf@jU'/>
+$Малфое=<phoneme alphabet="x-sampa" ph='m"alf@jE'/>
+$Малфоем=<phoneme alphabet="x-sampa" ph='m"alf@jEm'/>
+$Амадеус=<phoneme alphabet="x-sampa" ph='6m6d"EUs'/>
+$Амадеуса=<phoneme alphabet="x-sampa" ph='6m6d"EUs@'/>
+$Амадеусом=<phoneme alphabet="x-sampa" ph='6m6d"EUs@m'/>
+$Амадеусу=<phoneme alphabet="x-sampa" ph='6m6d"EUsU'/>
+$Амадеусе=<phoneme alphabet="x-sampa" ph='6m6d"EUs_j@'/>
+$Макквин=<phoneme alphabet="x-sampa" ph='m6k:v_j"in'/>
+$Макквина=<phoneme alphabet="x-sampa" ph='m6k:v_j"in@'/>
+$Реддл=<phoneme alphabet="x-sampa" ph='r"Edl'/>
+$Реддла=<phoneme alphabet="x-sampa" ph='r"Edl@'/>
+$Реддлом=<phoneme alphabet="x-sampa" ph='r"Edl@m'/>
+$Реддле=<phoneme alphabet="x-sampa" ph='r"Edle'/>
+$Реддлу=<phoneme alphabet="x-sampa" ph='r"EdlU'/>
+$Хогвартс=Хогвартс
+$Хогвартсе=<phoneme alphabet="x-sampa" ph='h"ogv6rts_j@'/>
+$Абраксас=Абраксас
+$Абраксасом=<phoneme alphabet="x-sampa" ph='6br6ks"as@m'/>
+$Слизнорт=Слизнорт
+$Слизнортом=<phoneme alphabet="x-sampa" ph='sl_jiznr"ot@m'/>
+$Поттер=<phoneme alphabet="x-sampa" ph='p"ott{r'/>
+$Поттера=<phoneme alphabet="x-sampa" ph='p"ott{r@'/>
+$Поттером=<phoneme alphabet="x-sampa" ph='p"ott{r@m'/>
+$Поттеру=<phoneme alphabet="x-sampa" ph='p"ott{rU'/>
+$Поттере=<phoneme alphabet="x-sampa" ph='p"ott{r_j@'/>
+$Северус=<phoneme alphabet="x-sampa" ph='s_j"ev_jerUs'/>
+$Северуса=<phoneme alphabet="x-sampa" ph='s_j"ev_jerUs@'/>
+$Северусом=<phoneme alphabet="x-sampa" ph='s_j"ev_jerUs@m'/>
+$Северусу=<phoneme alphabet="x-sampa" ph='s_j"ev_jerUsU'/>
+$Северусе=<phoneme alphabet="x-sampa" ph='s_j"ev_jerUs_j@'/>
+$Блэк=Блэк
+$Гилберт=<phoneme alphabet="x-sampa" ph='g_j"ilb_jert'/>
+$Гилберта=<phoneme alphabet="x-sampa" ph='g_j"ilb_jert@'/>
+$Гилбертом=<phoneme alphabet="x-sampa" ph='g_j"ilb_jert@m'/>
+$Гилберту=<phoneme alphabet="x-sampa" ph='g_j"ilb_jertU'/>
+$Гилберте=<phoneme alphabet="x-sampa" ph='g_j"ilb_jert_j@'/>
+$Кэрроу=<phoneme alphabet="x-sampa" ph='k"ErrOU'/>
+$Коул=<phoneme alphabet="x-sampa" ph='k"oUl'/>
+$Коула=<phoneme alphabet="x-sampa" ph='k"oUl@'/>
+$Коулом=<phoneme alphabet="x-sampa" ph='k"oUl@m'/>
+$Коулу=<phoneme alphabet="x-sampa" ph='k"oUlU'/>
+$Коуле=<phoneme alphabet="x-sampa" ph='k"oUl_j@'/>
+$Льюис=Льюис
+$Макгонагалл=<phoneme alphabet="x-sampa" ph='m6kg"on@g@l'/>
+$Найра=Найра
+$Уизли=<phoneme alphabet="x-sampa" ph='U"izl_ji'/>
+$Вальден=<phoneme alphabet="x-sampa" ph='v"a:l_jd@n'/>
+$Вальдена=<phoneme alphabet="x-sampa" ph='v"a:l_jd@n@'/>
+$Вальденом=<phoneme alphabet="x-sampa" ph='v"a:l_jd@n@m'/>
+$Вальдену=<phoneme alphabet="x-sampa" ph='v"a:l_jd@nU'/>
+$Вальдене=<phoneme alphabet="x-sampa" ph='v"a:l_jd@n_j@'/>
+$Люциус=Люциус
+$Альбус=<phoneme alphabet="x-sampa" ph='"Al_jbUs'/>
+$Альбуса=<phoneme alphabet="x-sampa" ph='"Al_jb@s@'/>
+$Альбусом=<phoneme alphabet="x-sampa" ph='"Al_jb@s@m'/>
+$Альбусу=<phoneme alphabet="x-sampa" ph='"Al_jb@sU'/>
+$Альбусе=<phoneme alphabet="x-sampa" ph='"Al_jb@s_j@'/>
+$Оберштайн=Оберштайн
+$Фред=<phoneme alphabet="x-sampa" ph='fr"Ed'/>
+$Фреда=<phoneme alphabet="x-sampa" ph='fr"Ed@'/>
+$Фредом=<phoneme alphabet="x-sampa" ph='fr"Ed@m'/>
+$Фреду=<phoneme alphabet="x-sampa" ph='fr"EdU'/>
+$Фреде=<phoneme alphabet="x-sampa" ph='fr"Ed_j@'/>
+$Адам=Адам
+$Карина=Карина
+$Кариной=<phoneme alphabet="x-sampa" ph='k6r_j"in@j'/>
+$Шеклболт=Шеклболт
+$Джордж=Джордж
+$Блэйз=Блэйз
+$Гарри=Гарри
+$Грейнджер=<phoneme alphabet="x-sampa" ph='gr"EjndZ@r'/>
+$Деннис=<phoneme alphabet="x-sampa" ph='d"En_jn_jis'/>
+$Денниса=<phoneme alphabet="x-sampa" ph='d"En_jn_jis@'/>
+$Деннисом=<phoneme alphabet="x-sampa" ph='d"En_jn_jis@m'/>
+$Деннису=<phoneme alphabet="x-sampa" ph='d"En_jn_jisU'/>
+$Деннисе=<phoneme alphabet="x-sampa" ph='d"En_jn_jis_j@'/>
