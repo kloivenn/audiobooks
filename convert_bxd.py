@@ -27,13 +27,25 @@ with open(args.o, 'w') as out:
                 	voc[8] = re.sub(r'\)', r'\)', voc[8])
 
                 newLine = voc[7] + '/s/' + voc[8] + '/s/'
-                if int(voc[5]) == 0:
-                    newLine += 'b/s/'
-                if int(voc[5]) == 1:
-                    newLine += 'l/s/'
-                if int(voc[5]) == 2:
-                    newLine += 'r/s/'
-                if int(voc[5]) == 3:
+                voc[5] = int(voc[5])
+                if voc[5] == 0:
+                    if (not re.match(r'\w', voc[7][0])) & (int(voc[6]) == 0):
+                        voc[5] += 2
+                    if (not re.match(r'\w', voc[7][-1])) & (int(voc[6]) == 0):
+                        voc[5] += 1
+                    if voc[5] == 0:
+                        newLine += 'b/s/'
+                if voc[5] == 1:
+                    if (not re.match(r'\w', voc[7][0])) & (int(voc[6]) == 0):
+                        voc[5] += 2
+                    else:
+                        newLine += 'l/s/'
+                if voc[5] == 2:
+                    if (not re.match(r'\w', voc[7][-1])) & (int(voc[6]) == 0):
+                        voc[5] += 1
+                    else:
+                        newLine += 'r/s/'
+                if voc[5] == 3:
                     newLine += 'n/s/'
                 newLine += voc[3] + '\n'
                 out.write(newLine)
