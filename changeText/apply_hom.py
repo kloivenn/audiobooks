@@ -1,5 +1,4 @@
 import argparse
-import fileinput
 
 parser = argparse.ArgumentParser(description='Some description')
 parser.add_argument('-i', metavar='TXT-FILE', type=str,
@@ -50,7 +49,7 @@ for d in dlist:
             print(count)
         if line.find('||') == 0:
             word = title[0:title.find('=')]
-            newWord = line[line.find('=') + 1:]
+            newWord = line[line.find('=') + 1:].strip()
             if line[2] == '$':
                 rule = line[3:line.find('=')]
                 ignore = False
