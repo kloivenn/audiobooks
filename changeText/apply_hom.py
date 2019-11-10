@@ -24,17 +24,20 @@ else:
 with open(args.i, 'r') as f:
     text = f.read()
 
-def ireplace(old, new, text, ignore):
+def ireplace(old, new, rule, text, ignore):
     idx = 0
     while idx < len(text):
         if ignore:
-            index_l = text.lower().find(old.lower(), idx)
+            index_l = text.lower().find(rule.lower(), idx)
+            index_w = text.lower().find(old, index_l)
         else:
-            index_l = text.find(old, idx)
+            index_l = text.find(rule, idx)
+            index_w = text.find(old, index_l)
         if index_l == -1:
             return text
-        text = text[:index_l] + new + text[index_l + len(old):]
-        idx = index_l + len(new) 
+
+        text = text[:index_w] + new + text[index_w + len(old):]
+        idx = index_w + len(old) 
     return text
 
 for d in dlist:
@@ -56,8 +59,7 @@ for d in dlist:
             else:
                 rule = line[2:line.find('=')]
                 ignore = True
-            replWith = ireplace(word, newWord, rule, True)
-            text = ireplace(rule, replWith, text, ignore)
+            text = ireplace(word, newWord, rule, text, ignore)
         else:
             title = line
 

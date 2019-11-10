@@ -50,7 +50,7 @@ for d in dlist:
             fl = 0
         if args.c:
             if re.search(r[0], text, flags = fl):
-                matches.append(count)
+                matches.append(count - 1)
         text = re.sub(r[0], r[1], text, flags = fl)
         count += 1
 

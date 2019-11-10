@@ -3016,7 +3016,7 @@ $полОсная=<phoneme ph="pɐlˈosnəjə"/>
 $полОсного=<phoneme ph="pɐlˈosnəvə"/>
 $полосЫ=<phoneme ph="pəlɐsˈɨ"/>
 $полотнА=<phoneme ph="pəlɐtnˈa"/>
-$пОлу=<phoneme ph="p'oˈlʊ"/>
+$пОлу=<phoneme alphabet="x-sampa" ph='p"olU'/>
 $полУ=<phoneme ph="pɐlˈu"/>
 $полукОльца=<phoneme ph="pəlʊkˈolʲt͡sə"/>
 $полуОстрова=<phoneme ph="pəlʊˈostrəvə"/>
@@ -7600,7 +7600,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 полон=<phoneme ph="pˈolən"/>
 полосная=<phoneme ph="pɐlˈosnəjə"/>
 полосного=<phoneme ph="pɐlˈosnəvə"/>
-полу=<phoneme ph="pɐlˈu"/>
 полуострова=<phoneme ph="pəlʊˈostrəvə"/>
 полуслова=<phoneme ph="pəlʊslˈovə"/>
 получите=<phoneme ph="pəlʊt͡ɕˈitʲɪ"/>
@@ -8331,7 +8330,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 стоящей=<phoneme ph="stɐjˈæɕːɪj"/>
 стоящем=<phoneme ph="stɐjˈæɕːɪm"/>
 стоящие=<phoneme ph="stɐjˈæɕːɪjə"/>
-стоящий=<phoneme ph="stɐjˈæɕːɪj"/>
 стоящими=<phoneme ph="stɐjˈæɕːɪmʲɪ"/>
 стоящих=<phoneme ph="stɐjˈæɕːɪ x"/>
 стоящую=<phoneme ph="stɐjˈæɕːʉjʉ"/>
@@ -39194,7 +39192,6 @@ oolong=<phoneme ph="ul'un"/>
 озорничающих=<phoneme ph="ɐzərnʲit͡ɕ'ajuɕ:əx"/>
 озорничающую=<phoneme ph="ɐzərnʲit͡ɕ'ajuɕ:ɨju"/>
 озорничая=<phoneme ph="ɐzərnʲit͡ɕ'ajə"/>
-озорные=<phoneme ph="ɐzˈornᵻjɐ"/>
 озоровал=<phoneme ph="ɐzərɐvˈal"/>
 ойкала=<phoneme ph="ˈojkələ"/>
 ойкают=<phoneme ph="ˈojkəjʉt"/>
@@ -57553,3 +57550,13 @@ $тОлков=<phoneme alphabet="x-sampa" ph='t"olk@v'/>
 приструнить=<phoneme alphabet="x-sampa" ph='pr_jistrUn_j"it_j'/>
 $словА=<phoneme alphabet="x-sampa" ph='sl6v"a'/>
 полутонов=<phoneme alphabet="x-sampa" ph='p%olUt6n"ov'/>
+$днЕвному=<phoneme alphabet="x-sampa" ph='dn_j"evn6mU'/>
+запитого=<phoneme alphabet="x-sampa" ph='z6p_j"it@v@'/>
+розовощёкий=<phoneme alphabet="x-sampa" ph='r6z@v@s\:"ok_jij'/>
+затеяв=<phoneme alphabet="x-sampa" ph='z6t_j"ej@v'/>
+истолкуете=<phoneme alphabet="x-sampa" ph='ist6lk"ujet_je'/>
+тяня=<phoneme alphabet="x-sampa" ph='t_j@n_j"a'/>
+путающиеся=<phoneme alphabet="x-sampa" ph='p"ut@jUs\:ij@s_j@'/>
+овсяной=<phoneme alphabet="x-sampa" ph='@vs_j"an@j'/>
+$стЕны=<phoneme alphabet="x-sampa" ph='st_j"enI\'/>
+возмущавшуюся=<phoneme alphabet="x-sampa" ph='v@zmUs\:"avSUjUs_j@'/>
