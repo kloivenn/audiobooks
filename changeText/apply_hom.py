@@ -37,7 +37,7 @@ def ireplace(old, new, rule, text, ignore):
             return text
 
         text = text[:index_w] + new + text[index_w + len(old):]
-        idx = index_w + len(old) 
+        idx = index_w + len(old)
     return text
 
 for d in dlist:

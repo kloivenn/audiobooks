@@ -1,5 +1,6 @@
 import argparse
 import re
+import random
 
 parser = argparse.ArgumentParser(description='Some description')
 parser.add_argument('-i', metavar='TXT-FILE', type=str,
@@ -10,8 +11,12 @@ parser.add_argument('-d', metavar='TXT-FILE', type=str,
                     help='dictionary')
 parser.add_argument('-dl', metavar='TXT-FILE', type=str,
                     help='dictionary list')
+parser.add_argument('-n', metavar='TXT-FILE', type=str,
+                    help='leave 1 out of n')
+
 
 args = parser.parse_args()
+n = int(args.n) or 1
 
 if args.d:
     dlist = [args.d]
@@ -41,20 +46,22 @@ with open(args.o, 'w') as out:
             if not line.find('||') == 0:
                 word = '\\b' + line[0:line.find('=')] + '\\b'
                 for m in re.finditer(word, text, flags = re.IGNORECASE):
-                    textPiece = text[max(0, m.start() - 40):min(len(text) - 1, m.start() + 45)].replace('\n', ' ')
-                    out.write(line)
-                    out.write(str(count + 1) + "\n")
-                    out.write(textPiece + "\n")
-                    for i in range(count + 1, prevTitle):
-                        if allVocs[i][2] == '$':
-                            rule = allVocs[i][3:allVocs[i].find('=')]
-                            if not textPiece.find(rule) == -1:
-                                out.write(allVocs[i])
-                        else:
-                            rule = allVocs[i][2:allVocs[i].find('=')]
-                            if not textPiece.lower().find(rule.lower()) == -1:
-                                out.write(allVocs[i])
-                    out.write("-----------\n")
+                    rand = random.randint(1, n)
+                    if rand == 1:
+                        textPiece = text[max(0, m.start() - 40):min(len(text) - 1, m.start() + 45)].replace('\n', ' ')
+                        out.write(line)
+                        out.write(str(count + 1) + "\n")
+                        out.write(textPiece + "\n")
+                        for i in range(count + 1, prevTitle):
+                            if allVocs[i][2] == '$':
+                                rule = allVocs[i][3:allVocs[i].find('=')]
+                                if not textPiece.find(rule) == -1:
+                                    out.write(allVocs[i])
+                            else:
+                                rule = allVocs[i][2:allVocs[i].find('=')]
+                                if not textPiece.lower().find(rule.lower()) == -1:
+                                    out.write(allVocs[i])
+                        out.write("-----------\n")
                 prevTitle = count
             count -= 1
 
