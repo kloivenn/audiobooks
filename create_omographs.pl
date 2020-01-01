@@ -36,5 +36,17 @@ while(<HMG>){
 	}
 }
 
+if($k > 0){
+	$max = 0;
+	for($i = 0; $i <= $#readingsNum; $i++){
+		if($readingsNum[$i] > $max){
+			$max = $readingsNum[$i];
+			$maxInd = $i;
+		} 
+	}
+	print DIC "\$$word=$readings[$maxInd]";
+}
+
+
 close DIC;
 close HMG;

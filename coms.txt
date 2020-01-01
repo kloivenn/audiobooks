@@ -1,0 +1,17 @@
+python3 changeText/apply_dicts.py -i withErrors/raw.txt -o withErrors/1_firstStep.txt -dl lists/full.txt
+python3 changeText/apply_and_find.py -i withErrors/raw.txt -o withErrors/1_find.txt -dl lists/full.txt
+python3 changeText/apply_hom.py -d all_omographs.hmg -i withErrors/1_firstStep.txt -o withErrors/2_secondStep.txt
+python3 changeText/find_hom.py -d all_omographs.hmg -i withErrors/2_secondStep.txt -o withErrors/3_homs.txt
+python3 changeText/apply_dic.py -d pron.dic -i withErrors/2_secondStep.txt -o withErrors/3_thirdStep.txt
+python textToSpeach/readByLine.py -i withErrors/3_thirdStep.txt
+python3 changeText/apply_dic.py -d pron.dic -i withErrors/3_confirm.txt -o withErrors/3_confirm_read.txt
+
+perl create_omographs.pl dicts/all_omographs.hmg
+python3 decapitalize.py -i dicts/other_omographs.dic -o dicts/01a_smallLetters.txt
+
+python3 changeText/apply_dicts.py -i text/fanfics.txt -o text/1_firstStep.txt -dl lists/full.txt -c True
+python3 changeText/apply_hom.py -d all_omographs.hmg -i text/1_firstStep.txt -o text/2_secondStep.txt
+python3 changeText/apply_dic.py -d other_omographs.dic -i text/2_secondStep.txt -o text/2_withOthers.txt
+python3 changeText/find_hom.py -d all_omographs.hmg -i text/2_withOthers.txt -o text/3_homs.txt -n 20
+python3 changeText/apply_hom.py -d all_omographs.hmg -i text/2_withOthers.txt -o text/2_secondStep.txt
+python3 changeText/find_names.py -i text/2_secondStep.txt -o text/names.txt -d names.dic

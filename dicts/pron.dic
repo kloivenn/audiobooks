@@ -2505,7 +2505,7 @@ $отвозИте=<phoneme ph="ɐtvɐzʲˈitʲɪ"/>
 $отвОзите=<phoneme ph="ɐtvˈozʲɪtʲɪ"/>
 $отдАлись=<phoneme ph="ɐdːˈalʲɪsʲ"/>
 $отданА=<phoneme ph="ɐtdːɐnˈ a"/>
-$отЕле=<phoneme ph="ɐtʲˈɛːlʲɪ"/>
+$отЕле=<phoneme alphabet="x-sampa" ph='@t"El_je'/>
 $отЕлю=<phoneme ph="ɐt'ɛlʲu"/>
 $отклонИтесь=<phoneme ph="ɐtklɐnʲˈitʲɪsʲ"/>
 $отколОв=<phoneme ph="ɐtkɐl'ov"/>
@@ -4079,8 +4079,6 @@ $стЕлите=<phoneme ph="stʲˈelʲɪtʲɪ"/>
 $стенАм=<phoneme ph="stʲɪnˈam"/>
 $стЕнам=<phoneme ph="s tʲˈenəm"/>
 $стЕнами=<phoneme ph="stʲˈenəmʲɪ"/>
-$стенАх=<phoneme ph="stʲɪnˈax"/>
-$стЕнах=<phoneme ph="s tʲˈenəx"/>
 $стенЫ=<phoneme ph="stʲɪnˈɨ"/>
 $степЕнно=<phoneme ph="s tʲɪpʲˈennːə"/>
 $степЕнного=<phoneme ph="stʲɪpʲˈennːəvə"/>
@@ -6885,7 +6883,7 @@ $Ястребов=<phoneme ph="jˈæstrʲɪbəf"/>
 митингов=<phoneme ph="mʲˈitʲɪnɡəf"/>
 могущая=<phoneme ph="mag'uɕ:ijə"/>
 могущие=<phoneme ph="mɐɡˈuɕːɪjə"/>
-могущий=<phoneme ph="mag'uɕ:ij"/>
+$могУщий=<phoneme ph="mag'uɕ:ij"/>
 могущих=<phoneme ph="mag'uɕ:əx"/>
 модерновая=<phoneme ph="mədʲɪrnˈovəjə"/>
 модерновую=<phoneme ph="mədʲɪrnˈovʊjʉ"/>
@@ -7620,7 +7618,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 поподвижней=<phoneme ph="pəpɐdvʲ'iʐnʲij"/>
 поправим=<phoneme ph="pɐprˈavʲɪm"/>
 попридержите=<phoneme ph="pəprʲɪdʲɪrʐˈɨtʲɪ"/>
-попросите=<phoneme ph="pɐpr'osʲɪtʲɪ"/>
 попу=<phoneme ph="pˈo pʊ"/>
 порах=<phoneme ph="pˈorəx"/>
 поре=<phoneme ph="pɐrʲˈe"/>
@@ -7798,7 +7795,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 прорубях=<phoneme ph="prˈorʊbʲəx"/>
 просветите=<phoneme ph="prəsvʲɪtʲˈitʲɪ"/>
 просеки=<phoneme ph="prˈo sʲɪkʲɪ"/>
-просите=<phoneme ph="prɐsʲˈitʲɪ"/>
 проскочите=<phoneme ph="prɐskˈot͡ɕɪtʲɪ"/>
 прослои=<phoneme ph="prɐslˈo ɪ"/>
 простачки=<phoneme ph="prəstɐt͡ɕkʲˈi"/>
@@ -8266,7 +8262,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 сползало=<phoneme ph="spɐlzˈalə"/>
 спорю=<phoneme ph="spˈorʲʉ"/>
 спою=<phoneme ph="spɐjˈʉ"/>
-спросите=<phoneme ph="sprɐsʲˈitʲɪ"/>
 среды=<phoneme ph="srʲɪdˈɨ"/>
 срезав=<phoneme ph="srʲˈezəv"/>
 срезался=<phoneme ph="srʲˈezəlsʲə"/>
@@ -8294,7 +8289,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 стеблям=<phoneme ph="s tʲˈeblʲɪm"/>
 стеблями=<phoneme ph="s tʲˈeblʲɪmʲɪ"/>
 стенам=<phoneme ph="s tʲˈenəm"/>
-стенах=<phoneme ph="s tʲˈenəx"/>
 степенно=<phoneme ph="s tʲɪpʲˈennːə"/>
 степенного=<phoneme ph="stʲɪpʲˈennːəvə"/>
 степенной=<phoneme ph="stʲɪpʲˈennːəj"/>
@@ -11673,8 +11667,6 @@ zippo=<phoneme ph="zʲ'ippə"/>
 крупповская=<phoneme ph="krˈuppəfskəjə"/>
 крылов=<phoneme ph="krᵻlˈof"/>
 крыловым=<phoneme ph="krᵻlˈovᵻm"/>
-крюка=<phoneme ph="krʲˈʉkə"/>
-крюке=<phoneme ph="krʲˈʉkʲɪ"/>
 ксавье=<phoneme ph="ksavʲj'e"/>
 кувейт=<phoneme ph="kʊvʲˈejt"/>
 кузей=<phoneme ph="kˈuzʲɪ j"/>
@@ -50484,7 +50476,6 @@ oolong=<phoneme ph="ul'un"/>
 рыжья=<phoneme ph="rᵻʐjˈæ"/>
 рыкай=<phoneme ph="rˈɨkəj"/>
 рыкающий=<phoneme ph="rˈɨkəjʉɕːɪj"/>
-рыкнув=<phoneme ph="rᵻknˈuf"/>
 рыкнул=<phoneme ph="rˈɨknʊl"/>
 рыкнула=<phoneme ph="rˈɨknʊlə"/>
 рыкнуть=<phoneme ph="rᵻknˈutʲ"/>
@@ -57560,3 +57551,12 @@ $днЕвному=<phoneme alphabet="x-sampa" ph='dn_j"evn6mU'/>
 овсяной=<phoneme alphabet="x-sampa" ph='@vs_j"an@j'/>
 $стЕны=<phoneme alphabet="x-sampa" ph='st_j"enI\'/>
 возмущавшуюся=<phoneme alphabet="x-sampa" ph='v@zmUs\:"avSUjUs_j@'/>
+размявшись=<phoneme alphabet="x-sampa" ph='r@zm_j"avS\Is_j'/>
+зарывшись=<phoneme alphabet="x-sampa" ph='z6r"I\\vS\I\s_j'/>
+шатен=<phoneme alphabet="x-sampa" ph='S\@t"En'/>
+меблированная=<phoneme alphabet="x-sampa" ph='m_j@bl_jir"ov6nn@j@'/>
+$слУги=<phoneme alphabet="x-sampa" ph='sl"ug_ji'/>
+пощажу=<phoneme alphabet="x-sampa" ph='p@s\:@Z"u'/>
+кашли=<phoneme alphabet="x-sampa" ph='k"aS\l_ji'/>
+выпотрошу=<phoneme alphabet="x-sampa" ph='v"I\p@tr6S\U'/>
+сгорбившегося=<phoneme alphabet="x-sampa" ph='sg"orb_jivS\ev@s_j@'/>

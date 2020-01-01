@@ -16,6 +16,8 @@ parser.add_argument('-n', metavar='TXT-FILE', type=str,
 
 
 args = parser.parse_args()
+if not args.n:
+    args.n = 1
 n = int(args.n) or 1
 
 if args.d:
