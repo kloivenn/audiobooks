@@ -32,7 +32,7 @@ voice = args.voice or "Salli"
 #voice = "Joanna"
 
 infile = args.infile
-i = 459
+i = 288
 n_pieces = 9
 
 pieces = []
@@ -40,7 +40,7 @@ with open(infile, "rb") as f:
     pieces = [l for l in (line.strip() for line in f) if l]
 
 count = 0
-file_index = 52
+file_index = 33
 
 # Do for all pieces
 while i < len(pieces):

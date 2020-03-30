@@ -15,3 +15,6 @@ python3 changeText/apply_dic.py -d other_omographs.dic -i text/2_secondStep.txt 
 python3 changeText/find_hom.py -d all_omographs.hmg -i text/2_withOthers.txt -o text/3_homs.txt -n 20
 python3 changeText/apply_hom.py -d all_omographs.hmg -i text/2_withOthers.txt -o text/2_secondStep.txt
 python3 changeText/find_names.py -i text/2_secondStep.txt -o text/names.txt -d names.dic
+python3 changeText/apply_dic.py -i text/2_secondStep.txt -o text/3_thirdStep.txt -dl lists/pron.txt
+perl textToSpeach/txt2ssml.pl -s medium text/3_thirdStep.txt > book.ssml
+python textToSpeach/ssml2mp3.py -o Fanfics.mp3 --voice Maxim book.ssml
