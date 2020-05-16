@@ -3780,8 +3780,8 @@ $свилИсь=<phoneme ph="svʲɪlʲˈisʲ"/>
 $свиньИ=<phoneme ph="svʲɪnʲjˈɪ"/>
 $свирЕпей=<phoneme ph="svʲɪrʲˈepʲɪj"/>
 $свитА=<phoneme ph="svʲɪtˈa"/>
-$свИтера=<phoneme ph="s vʲˈitʲɪrə"/>
-$свитерАм=<phoneme ph="svʲɪtʲɪrˈam"/>
+$свИтера=<phoneme ph="s vʲˈitərə"/>
+$свитерАм=<phoneme ph="svʲɪtərˈam"/>
 $свОйствам=<phoneme ph="svˈojstvəm"/>
 $свОйствами=<phoneme ph="svˈojstvəmʲɪ"/>
 $свОйствах=<phoneme ph="svˈojstvəx"/>
@@ -48128,7 +48128,6 @@ oolong=<phoneme ph="ul'un"/>
 просеяв=<phoneme ph="prɐsʲˈejɪf"/>
 просимся=<phoneme ph="prˈosʲɪmsʲə"/>
 просинью=<phoneme ph="prˈosʲɪnʲjʉ"/>
-просится=<phoneme ph="prɐsʲˈit͡sə"/>
 просканировав=<phoneme ph="prɐskɐnʲˈirəvəf"/>
 проскользнув=<phoneme ph="prəskɐlʲ zn'uv"/>
 проскочат=<phoneme ph="prɐskˈot͡ɕɪt"/>
@@ -57563,3 +57562,7 @@ $слУги=<phoneme alphabet="x-sampa" ph='sl"ug_ji'/>
 дуэлям=<phoneme alphabet="x-sampa" ph='dU"El_j@m'/>
 мёрзло=<phoneme alphabet="x-sampa" ph='m_j"orzl@'/>
 моголь=<phoneme alphabet="x-sampa" ph='m"og@l_j'/>
+одеялком=<phoneme alphabet="x-sampa" ph='6d_jIj"alk@m'/>
+остроухое=<phoneme alphabet="x-sampa" ph='6str6"uh@j@'/>
+$пЯточками=<phoneme alphabet="x-sampa" ph='p_j"at@tSk@m_ji'/>
+наволочках=<phoneme alphabet="x-sampa" ph='n"av@l@tSk@h'/>

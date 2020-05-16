@@ -487,3 +487,64 @@ $Эвансом=<phoneme alphabet="x-sampa" ph='"Ev@ns@m'/>
 $Эвансе=<phoneme alphabet="x-sampa" ph='"Ev@ns_jI'/>
 $Дурсли=Дурсли
 $Инви=Инви
+$Фолко=Фолко
+$Эовин=Эовин
+$Торин=<phoneme alphabet="x-sampa" ph='t"or_jin'/>
+$Торина=<phoneme alphabet="x-sampa" ph='t"or_jin@'/>
+$Торину=<phoneme alphabet="x-sampa" ph='t"or_jinU'/>
+$Торином=<phoneme alphabet="x-sampa" ph='t"or_jin@m'/>
+$Торине=<phoneme alphabet="x-sampa" ph='t"or_jin_jI'/>
+$Санделло=<phoneme alphabet="x-sampa" ph='s6nd"Ell@'/>
+$Рагнур=<phoneme alphabet="x-sampa" ph='r"agnUr'/>
+$Рагнура=<phoneme alphabet="x-sampa" ph='r"agnUr@'/>
+$Рагнуром=<phoneme alphabet="x-sampa" ph='r"agnUr@m'/>
+$Рагнуру=<phoneme alphabet="x-sampa" ph='r"agnUrU'/>
+$Рагнуре=<phoneme alphabet="x-sampa" ph='r"agnUr_j@'/>
+$Эодрейд=<phoneme alphabet="x-sampa" ph='E6dr"Ejd'/>
+$Эодрейда=<phoneme alphabet="x-sampa" ph='E6dr"Ejd@'/>
+$Эодрейдом=<phoneme alphabet="x-sampa" ph='E6dr"Ejd@m'/>
+$Эодрейде=<phoneme alphabet="x-sampa" ph='E6dr"Ejd_j@'/>
+$Эодрейду=<phoneme alphabet="x-sampa" ph='E6dr"EjdU'/>
+$Форвё=<phoneme alphabet="x-sampa" ph='f"orv_jo'/>
+$Тубала=Тубала
+$Тубале=<phoneme alphabet="x-sampa" ph='tUb"al_j6'/>
+$Олмер=Олмер
+$Фарнак=Фарнак
+$Строри=<phoneme alphabet="x-sampa" ph='str"or_ji'/>
+$Брего<phoneme alphabet="x-sampa" ph='br_j"ego'/>
+$Холбутла=<phoneme alphabet="x-sampa" ph='h6lb"utl@'/>
+$Холбутлой=<phoneme alphabet="x-sampa" ph='h6lb"utl@j'/>
+$Холбутле=<phoneme alphabet="x-sampa" ph='h6lb"utl_j@'/>
+$Холбутлу=<phoneme alphabet="x-sampa" ph='h6lb"utlU'/>
+$Холбутлы=<phoneme alphabet="x-sampa" ph='h6lb"utlI\'/>
+$Минас=Минас
+$Хенна=Хенна
+$Хенне=<phoneme alphabet="x-sampa" ph='h_j"enn_je'/>
+$Рохан=Рохан
+$Вингетор=<phoneme alphabet="x-sampa" ph='v_jing_jet"or'/>
+$Вингетора=<phoneme alphabet="x-sampa" ph='v_jing_jet"or@'/>
+$Вингетором=<phoneme alphabet="x-sampa" ph='v_jing_jet"or@m'/>
+$Вингетору=<phoneme alphabet="x-sampa" ph='v_jing_jet"orU'/>
+$Вингеторе=<phoneme alphabet="x-sampa" ph='v_jing_jet"or_j@'/>
+$Гондор=Гондор
+$Гондору=<phoneme alphabet="x-sampa" ph='g"ond@rU'/>
+$Гондоре=<phoneme alphabet="x-sampa" ph='g"ond@r_j@'/>
+$Гондором=<phoneme alphabet="x-sampa" ph='g"ond@r@m'/>
+$Хьярриди=<phoneme alphabet="x-sampa" ph='h_jj6r_j"idd_ji'/>
+$Харад=Харад
+$Средиземье=Средиземье
+$Средиземья=<phoneme alphabet="x-sampa" ph='sr_jed_jiz_j"em_jj@'/>
+$Средиземью=<phoneme alphabet="x-sampa" ph='sr_jed_jiz_j"em_jjU'/>
+$Средиземьем=<phoneme alphabet="x-sampa" ph='sr_jed_jiz_j"em_jj6m'/>
+$Авари=<phoneme alphabet="x-sampa" ph='6v"ar_ji'/>
+$Эркенбранд=Эркенбранд
+$Миллог=Миллог
+$Умбар=Умбар
+$Элин=<phoneme alphabet="x-sampa" ph='"El_jin'/>
+$Элина=<phoneme alphabet="x-sampa" ph='"El_jin@'/>
+$Элину=<phoneme alphabet="x-sampa" ph='"El_jinU'/>
+$Элине=<phoneme alphabet="x-sampa" ph='"El_jin_j@'/>
+$Элином=<phoneme alphabet="x-sampa" ph='"El_jin@m'/>
+$Ангмарец=Ангмарец
+$Оэсси=Оэсси
+$Адамант=Адамант

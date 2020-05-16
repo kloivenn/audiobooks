@@ -4,3 +4,19 @@ withErrors/lines/
 output/
 
 text/
+
+book.ssml
+
+withErrors/1_find.txt
+
+withErrors/1_firstStep.txt
+
+withErrors/2_secondStep.txt
+
+withErrors/3_confirm.txt
+
+withErrors/3_confirm_read.txt
+
+withErrors/3_homs.txt
+
+withErrors/3_thirdStep.txt

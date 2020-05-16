@@ -5,6 +5,7 @@ python3 changeText/find_hom.py -d all_omographs.hmg -i withErrors/2_secondStep.t
 python3 changeText/apply_dic.py -d pron.dic -i withErrors/2_secondStep.txt -o withErrors/3_thirdStep.txt
 python textToSpeach/readByLine.py -i withErrors/3_thirdStep.txt
 python3 changeText/apply_dic.py -d pron.dic -i withErrors/3_confirm.txt -o withErrors/3_confirm_read.txt
+python textToSpeach/readByLine.py -i withErrors/3_confirm_read.txt
 
 perl create_omographs.pl dicts/all_omographs.hmg
 python3 decapitalize.py -i dicts/other_omographs.dic -o dicts/01a_smallLetters.txt
