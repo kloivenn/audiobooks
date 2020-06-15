@@ -548,3 +548,53 @@ $Элином=<phoneme alphabet="x-sampa" ph='"El_jin@m'/>
 $Ангмарец=Ангмарец
 $Оэсси=Оэсси
 $Адамант=Адамант
+$Квиринус=Квиринус
+$Квиррелл=<phoneme alphabet="x-sampa" ph='kv_j"ir@l'/>
+$Квиррелла=<phoneme alphabet="x-sampa" ph='kv_j"ir@l@'/>
+$Квирреллом=<phoneme alphabet="x-sampa" ph='kv_j"ir@l@m'/>
+$Квирреллу=<phoneme alphabet="x-sampa" ph='kv_j"ir@lU'/>
+$Квиррелле=<phoneme alphabet="x-sampa" ph='kv_j"ir@l_j@'/>
+$Пивз=Пивз
+$Пивза=<phoneme alphabet="x-sampa" ph='p_j"ivz@'/>
+$Сивилла=<phoneme alphabet="x-sampa" ph='s_jiv_j"il@'/>
+$Трелони=<phoneme alphabet="x-sampa" ph='tr"El@n_ji'/>
+$Мариус=Мариус
+$Мариусе=<phoneme alphabet="x-sampa" ph='m"ar_jiUs_j@'/>
+$Мариусу=<phoneme alphabet="x-sampa" ph='m"ar_jiUsU'/>
+$Помфри=<phoneme alphabet="x-sampa" ph='p"omfr_ji'/>
+$Волдеморт=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort'/>
+$Волдеморта=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort@'/>
+$Волдеморту=<phoneme alphabet="x-sampa" ph='v@ld@\m"ortU'/>
+$Волдемортом=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort@m'/>
+$Волдеморте=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort_j@'/>
+$Грюм=Грюм
+$Марчбэнкс=Марчбэнкс
+$Мэттью=Мэттью
+$Петтигрю=<phoneme alphabet="x-sampa" ph='p"ett_jigr_jU'/>
+$Сиби=<phoneme alphabet="x-sampa" ph='s_j"ib_ji'/>
+$Ник=Ник
+$Ником=<phoneme alphabet="x-sampa" ph='n_j"ik@m'/>
+$Миртл=Миртл
+$Миртла=<phoneme alphabet="x-sampa" ph='m_j"irtl@'/>
+$Бедуир=Бедуир
+$Мунго=Мунго
+$Каркаров=Каркаров
+$Дерфель=Дерфель
+$Дерфелю=<phoneme alphabet="x-sampa" ph='d_j"erfel_jU'/>
+$Спраут=Спраут
+$Спраутом=<phoneme alphabet="x-sampa" ph='spr"aUt@m'/>
+$Спрауте=<phoneme alphabet="x-sampa" ph='spr"aUt_j@\'/>
+$Спрауту=<phoneme alphabet="x-sampa" ph='spr"aUtU'/>
+$Поппи=<phoneme alphabet="x-sampa" ph='p"opp_ji'/>
+$Еиналеж=Еиналеж
+$Еиналежа=<phoneme alphabet="x-sampa" ph='jejn6l_j"eZ@'/>
+$Еиналежу=<phoneme alphabet="x-sampa" ph='jejn6l_j"eZU'/>
+$Еиналеже=<phoneme alphabet="x-sampa" ph='jejn6l_j"eZ@\'/>
+$Гризельда=Гризельда
+$Дик=Дик
+$Аргус=Аргус
+$Авалон=Авалон
+$Слизерин=Слизерин
+$Рэйвенкло=Рэйвенкло
+$Райни=Райни
+$Треверс=Треверс
