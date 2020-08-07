@@ -1,5 +1,4 @@
 01_corector.txt
 01a_smallLetters.txt
-02_yo.txt
-04_vse-vsyo.txt
+02_yo_new.txt
 05_homographs.txt

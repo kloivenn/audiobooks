@@ -8,12 +8,19 @@ parser.add_argument('-o', metavar='TXT-FILE', type=str,
                     help='input txt file')
 
 args = parser.parse_args()
-
+check = False
 with open(args.o, 'w') as out:
     with open(args.i, 'r') as dic:
         line = dic.readline()
         while line:
-            word = line[1:line.find("=")]
-            wordCap = word[0].capitalize() + word[1:]
-            out.write('\\b' + wordCap + '\\b' + '/s/' + word + '/s/r/s/1\n')
+            if line == '||':
+                break
+            if line[0:2] == '||':
+                word = line[2:line.find("=")]
+                wordCap = word[0].capitalize() + word[1:]
+                check = True
+            else:
+                if check:
+                    out.write('\\b' + wordCap + '\\b' + '/s/' + word + '/s/r/s/1\n')
+                check = False
             line = dic.readline()

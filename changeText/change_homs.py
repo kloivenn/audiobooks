@@ -1,0 +1,132 @@
+import argparse
+import multiprocessing
+from joblib import Parallel, delayed
+import re
+import itertools
+import time
+import random
+
+num_cores = multiprocessing.cpu_count()
+
+parser = argparse.ArgumentParser(description='Some description')
+parser.add_argument('-i', metavar='TXT-FILE', type=str,
+                    help='input file')
+parser.add_argument('-o', metavar='TXT-FILE', type=str,
+                    help='output file')
+parser.add_argument('-log', metavar='TXT-FILE', type=str,
+                    help='log file')
+parser.add_argument('-d', metavar='TXT-FILE', type=str,
+                    help='dictionary')
+parser.add_argument('-n', metavar='TXT-FILE', type=str,
+                    help='leave 1 out of n')
+
+args = parser.parse_args()
+
+if not args.n:
+    args.n = 0
+n = int(args.n) or 0
+
+with open('dicts/' + args.d, 'r') as f:
+    dictEntr = list(f.readlines())
+with open(args.i, 'r') as f:
+    text = f.read().replace('\xa0', ' ')
+text_unsigned = text.replace('!', '.').replace('?', '.').replace('…', '.').replace('–', '-').replace('—', '-').replace('. -', ', -').replace('ё', 'е').replace('Ё', 'Е')
+
+def getRegions(start, end):
+    before = text_unsigned[max((start - 301), text_unsigned.rfind('\n', 0, start - 1) + 1):(start - 1)]
+    after = text_unsigned[end:min((end + 301), text_unsigned.find('\n', end + 1))]
+    dotFirst = max(before.rfind('.'), 0)
+    dotLast = after.find('.')
+    if dotLast == -1:
+        dotLast = len(after)
+
+    while len(before) - dotFirst + dotLast < 40:
+        dotFirstNext = before.rfind('.', 0, dotFirst)
+        dotLastNext = after.find('.', dotLast + 1)
+        if dotLastNext == -1 and dotFirstNext == -1:
+            break
+        if dotLastNext == -1:
+            dotFirst = dotFirstNext
+        elif dotFirstNext == -1:
+            dotLast = dotLastNext
+        elif dotLastNext - dotLast > dotFirst - dotFirstNext:
+            dotFirst = dotFirstNext
+        else:
+            dotLast = dotLastNext
+            
+    return [before[dotFirst:], after[1:dotLast]]
+    
+    
+def findOccur(ind, line):
+    pos = []
+    if line[0:2] == '||':
+        word = line[2:line.find("=")]
+        if text.find(word) != -1:
+            occur = re.finditer('\\b' + word + '\\b', text)
+            pos = list(map(lambda o: [ind, o.start(), getRegions(o.start(), o.end()) ], occur))
+    return pos
+
+t0 = time.clock()
+if __name__ == "__main__":
+    allOcs = Parallel(n_jobs = num_cores)(delayed(findOccur)(ind, line) for ind, line in enumerate(dictEntr[:-1]))
+print("Homographs found")
+print((time.clock() - t0)/60)
+allOcs = list(itertools.chain.from_iterable(allOcs))
+
+manager = multiprocessing.Manager()
+log_dict = manager.dict({})
+
+def makeDecision(pr, n):
+    opts = dictEntr[pr[0]][(dictEntr[pr[0]].find('=') + 1):-1].split(',')
+    if n == 0:
+        rand = -1
+    else:
+        rand = random.randint(1, n)
+    if dictEntr[pr[0] + 1][0:2] == '||':
+        if rand == 1:
+            log_dict[len(log_dict)] = pr[2][0] + ' _' + opts[0] + '_ ' + pr[2][1] + '\n'
+        return opts[0]
+    scores = [0] * len(opts)
+    insts = [0] * len(opts)
+    opt = 0
+    st = ''
+    while opt < len(opts):
+        before = dictEntr[pr[0] + 2 + opt*3][(dictEntr[pr[0] + 2 + opt*3].find(':') + 1):-1]
+        after = dictEntr[pr[0] + 3 + opt*3][(dictEntr[pr[0] + 3 + opt*3].find(':') + 1):-1]
+        insts[opt] = before.count('|') + after.count('|')
+        before_log = pr[2][0]
+        after_log = pr[2][1]
+        if len(before) > 0:
+            for o in re.finditer(before, pr[2][0], re.I):
+                scores[opt] += (o.end() - o.start()) * max((20 - len(pr[2][0]) + o.end()), 1)**2
+                if rand == 1:
+                    before_log = before_log[:o.start()] + before_log[o.start():o.end()].upper() + before_log[o.end():]
+        if len(after) > 0 :
+            for o in re.finditer(after, pr[2][1], re.I):
+                scores[opt] += (o.end() - o.start()) * max(20 - o.start() + 1, 1)**2
+                if rand == 1:
+                    after_log = after_log[:o.start()] + after_log[o.start():o.end()].upper() + after_log[o.end():]
+        if rand == 1:
+            st += str(scores[opt]) + ': ' + before_log + ' _' + opts[opt] + '_ ' + after_log + '\n'
+
+        opt += 1
+
+    maxScore = max(scores)
+    maxInd = [i for i, j in enumerate(scores) if j == maxScore]
+    resInd = maxInd[0]
+    for ind in maxInd[1:]:
+        if insts[ind] > insts[resInd]:
+            resInd = ind
+    if rand == 1:
+        log_dict[len(log_dict)] = st + opts[resInd] + '\n'            
+    return opts[resInd]
+t0 = time.clock()
+if __name__ == "__main__":
+    descs = Parallel(n_jobs = num_cores)(delayed(makeDecision)(pr, n) for pr in allOcs)
+print((time.clock() - t0)/60)
+
+if args.log:
+    with open(args.log, 'w') as out:
+        for key in log_dict:
+            out.write(log_dict[key])
+            out.write('\n-----------\n\n')
