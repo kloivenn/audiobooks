@@ -39,7 +39,7 @@ for d in dlist:
             flag = 0
             line = line[1:]
         word = '\\b' + line[0:line.find('=')] + '\\b'
-        newWord = line[line.find('=') + 1:].strip()
+        newWord = line[line.find('=') + 1:].strip().replace('\\', '\\\\')
         text = re.sub(word, newWord, text, flags = flag)
 
         count += 1

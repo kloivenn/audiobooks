@@ -36,7 +36,7 @@ i = 0
 n_pieces = 9
 
 pieces = []
-with open(infile, "rb") as f:
+with open(infile, "r") as f:
     pieces = [l for l in (line.strip() for line in f) if l]
 
 count = 0
@@ -54,7 +54,7 @@ while i < len(pieces):
     with open("output/" + file_name, "wb") as out:
         while count < n_pieces and i < len(pieces):
             piece = pieces[i]
-            print "piece %d: %s" % (i, piece)
+            print("piece %d: %s" % (i, piece))
             try:
                 # Request speech synthesis
                 response = polly.synthesize_speech(Text=piece, TextType="ssml", OutputFormat="mp3",

@@ -1,7 +1,7 @@
 import argparse
 import re
 import fileinput
-import time
+import datetime
 
 parser = argparse.ArgumentParser(description='Some description')
 parser.add_argument('-i', metavar='TXT-FILE', type=str,
@@ -29,7 +29,7 @@ with open(args.i, 'r') as f:
     text = f.read()
 
 for d in dlist:
-    t0 = time.clock()
+    t0 = datetime.datetime.now()
     with open('dicts/' + d, 'r') as dic:
         allVocs = dic.readlines()
     print('Started ' + d + '. ' + str(len(allVocs)) + ' entries')
@@ -57,7 +57,7 @@ for d in dlist:
         count += 1
 
     print('Finished ' + d)
-    print((time.clock() - t0)/60)
+    print((datetime.datetime.now() - t0).total_seconds()/60)
     if args.c:
         for i in matches:
             r = allVocs[i].replace('\n', '').split('/s/')

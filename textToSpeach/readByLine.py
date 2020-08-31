@@ -7,6 +7,7 @@ from contextlib import closing
 import argparse
 import os
 import sys
+import glob
 
 import subprocess
 from tempfile import gettempdir
@@ -21,7 +22,9 @@ parser.add_argument('-i', metavar='SSML-FILE', type=str,
 
 args = parser.parse_args()
 
-outfile = args.o
+files = glob.glob(args.o + '/*')
+for f in files:
+    os.remove(f)
 
 # Create a client using the credentials and region defined in the [adminuser]
 # section of the AWS credentials file (~/.aws/credentials).
@@ -31,12 +34,11 @@ polly = session.client("polly")
 voice = args.voice or "Maxim"
 #voice = "Joanna"
 
-infile = args.i
 i = 0
 
 pieces = []
-with open(infile, "rb") as f:
-    pieces =  [l for l in ('<speak>' + line.strip()  + '</speak>' for line in f) if l]
+with open(args.i, "r") as f:
+    pieces =  [l for l in ('<speak>' + line.strip()  + '<break time="500ms"/></speak>' for line in f) if l]
 
 # Do for all pieces
 while i < len(pieces):

@@ -1880,7 +1880,6 @@ $лЕн=<phoneme ph="lʲˈen"/>
 $ленИтесь=<phoneme ph="lʲɪnʲˈitʲɪsʲ"/>
 $лЕпите=<phoneme ph="lʲ'epʲɪtʲɪ"/>
 $лесА=<phoneme ph="lʲɪ sˈa"/>
-$лесА=<phoneme ph="lʲɪ sˈ a"/>
 $лЕсе=<phoneme ph="lʲˈesʲɪ"/>
 $лЕска=<phoneme ph="lʲ'eskə"/>
 $лескАми=<phoneme ph="lʲɪsk'amʲɪ"/>
@@ -5380,13 +5379,8 @@ $Ястребов=<phoneme ph="jˈæstrʲɪbəf"/>
 валящуюся=<phoneme ph="vˈalʲəɕːʉjʉ sʲə"/>
 варвары=<phoneme ph="vɐrvˈarᵻ"/>
 варя=<phoneme ph="vˈarʲə"/>
-вводим=<phoneme ph="vvˈodʲɪm"/>
-вводите=<phoneme ph="vvˈodʲɪtʲɪ"/>
-ввозим=<phoneme ph="vvˈozʲɪm"/>
-ввозите=<phoneme ph="vvˈozʲɪtʲɪ"/>
 вдова=<phoneme ph="vdɐvˈa"/>
 вдовой=<phoneme ph="vdɐvˈoj"/>
-вдовы=<phoneme ph="vdɐv'ɨ"/>
 ведение=<phoneme ph="vʲidʲ'e nʲ ijɐ"/>
 ведением=<phoneme ph="vʲidʲ'e nʲijəm"/>
 ведении=<phoneme ph="vʲɪdʲˈenʲɪɪ"/>
@@ -5407,9 +5401,7 @@ $Ястребов=<phoneme ph="jˈæstrʲɪbəf"/>
 ведомою=<phoneme ph="vʲid'o məju"/>
 ведомыми=<phoneme ph="vʲid'om ɨmʲi"/>
 ведра=<phoneme ph="vʲidr'a"/>
-веками=<phoneme ph="vʲɪk'amʲɪ"/>
 веках=<phoneme ph="vʲɪk'ax"/>
-велика=<phoneme ph="vʲilʲik'a"/>
 велики=<phoneme ph="vʲilʲikʲ'i"/>
 велико=<phoneme ph="vʲilʲik'o"/>
 величины=<phoneme ph="vʲɪlʲɪt͡ɕˈinᵻ"/>
@@ -8210,8 +8202,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 смотрите=<phoneme ph="smɐtrʲˈitʲɪ"/>
 смотру=<phoneme ph="smˈotrʊ"/>
 снасти=<phoneme ph="sn'a sʲtʲi"/>
-снега=<phoneme ph="snʲˈeɡə"/>
-снегу=<phoneme ph="snʲɪɡˈu"/>
 сносях=<phoneme ph="snɐsʲˈæx"/>
 снятая=<phoneme ph="snʲˈætəjə"/>
 снято=<phoneme ph="snʲˈætɐ"/>
@@ -27810,6 +27800,7 @@ oolong=<phoneme ph="ul'un"/>
 замершего=<phoneme ph="zˈamʲɪr ʂᵻvə"/>
 замершей=<phoneme ph="zˈa mʲɪrʂᵻj"/>
 замерший=<phoneme ph="zˈa mʲɪrʂᵻj"/>
+замерших=<phoneme ph="zˈa mʲɪrʂᵻh"/>
 замершими=<phoneme ph="z'amʲirʂɨmʲi"/>
 замесил=<phoneme ph="zəmʲɪsʲˈil"/>
 замесила=<phoneme ph="zəmʲɪsʲˈilə"/>
@@ -33753,7 +33744,6 @@ oolong=<phoneme ph="ul'un"/>
 макияжу=<phoneme ph="məkʲij'aʐu"/>
 маковку=<phoneme ph="m'akəvku"/>
 максимому=<phoneme ph="mˈaksʲɪməmʊ"/>
-мала=<phoneme ph="mɐlˈa"/>
 маладца=<phoneme ph="məlɐt͡sˈa"/>
 маленько=<phoneme ph="mɐlʲˈenʲkə"/>
 малиек=<phoneme ph="mɐlʲˈiʲɪk"/>
@@ -35584,8 +35574,10 @@ oolong=<phoneme ph="ul'un"/>
 надавлю=<phoneme ph="nədɐvlʲˈʉ"/>
 надбровную=<phoneme ph="nɐdbrˈovnʊjʉ"/>
 надбровьями=<phoneme ph="nɐdbrˈovʲʲɪmʲɪ"/>
-надвигавшиеся=<phoneme ph="nədvʲɪɡˈafʂᵻʲɪ sʲə"/>
-надвигавшийся=<phoneme ph="nədvʲɪɡˈafʂᵻjsʲə"/>
+$надвигАвшиеся=<phoneme ph="nədvʲɪɡˈafʂᵻʲɪ sʲə"/>
+$надвигАвшийся=<phoneme ph="nədvʲɪɡˈafʂᵻjsʲə"/>
+$надвигАвшихся=<phoneme ph="nədvʲɪɡˈafʂᵻhsʲə"/>
+$надвигАвшаяся=<phoneme ph="nədvʲɪɡˈafʂᵻʲəjəsʲə"/>
 надвигались=<phoneme ph="nədvʲɪɡˈalʲɪsʲ"/>
 надгробии=<phoneme ph="nɐ dgr'obʲijə"/>
 надгробий=<phoneme ph="nɐ dgr'obʲij"/>
@@ -57570,3 +57562,12 @@ $пЯточками=<phoneme alphabet="x-sampa" ph='p_j"at@tSk@m_ji'/>
 оросила=<phoneme alphabet="x-sampa" ph='6r6s_j"il@'/>
 четвертей=<phoneme alphabet="x-sampa" ph='tSItv_jIrt_j"ej'/>
 кружилось=<phoneme alphabet="x-sampa" ph='krUZ"il@s_j'/>
+смертельно=<phoneme alphabet="x-sampa" ph='sm_j@rt_j"el_jn@'/>
+$зАгородными=<phoneme alphabet="x-sampa" ph='z"ag@r@dnI\m_ji'/>
+сжавшись=<phoneme alphabet="x-sampa" ph='sZ"avSI\s_j'/>
+приструнил=<phoneme alphabet="x-sampa" ph='pr_jIstr8n_j"il'/>
+чащах=<phoneme alphabet="x-sampa" ph='tS_j"as\:@h'/>
+пировала=<phoneme alphabet="x-sampa" ph='p_jir6v"al@'/>
+букв=<phoneme alphabet="x-sampa" ph='b"ukv'/>
+испарине=<phoneme alphabet="x-sampa" ph='Isp"ar_jin_je'/>
+тысячью=<phoneme alphabet="x-sampa" ph='t"I\s_j@tS_jjU'/>

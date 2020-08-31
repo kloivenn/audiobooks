@@ -3,7 +3,7 @@ import multiprocessing
 from joblib import Parallel, delayed
 import re
 import itertools
-import time
+import datetime
 import random
 
 num_cores = multiprocessing.cpu_count()
@@ -22,7 +22,10 @@ parser.add_argument('-n', metavar='TXT-FILE', type=str,
 
 args = parser.parse_args()
 
-if not args.n:
+if args.log and not args.n:
+    args.n = 1
+
+if not args.n or not args.log:
     args.n = 0
 n = int(args.n) or 0
 
@@ -66,11 +69,11 @@ def findOccur(ind, line):
             pos = list(map(lambda o: [ind, o.start(), getRegions(o.start(), o.end()) ], occur))
     return pos
 
-t0 = time.clock()
+t0 = datetime.datetime.now()
 if __name__ == "__main__":
     allOcs = Parallel(n_jobs = num_cores)(delayed(findOccur)(ind, line) for ind, line in enumerate(dictEntr[:-1]))
 print("Homographs found")
-print((time.clock() - t0)/60)
+print((datetime.datetime.now() - t0).total_seconds()/60)
 allOcs = list(itertools.chain.from_iterable(allOcs))
 
 manager = multiprocessing.Manager()
@@ -85,7 +88,8 @@ def makeDecision(pr, n):
     if dictEntr[pr[0] + 1][0:2] == '||':
         if rand == 1:
             log_dict[len(log_dict)] = pr[2][0] + ' _' + opts[0] + '_ ' + pr[2][1] + '\n'
-        return opts[0]
+        pr.append(opts[0])
+        return pr
     scores = [0] * len(opts)
     insts = [0] * len(opts)
     opt = 0
@@ -98,12 +102,12 @@ def makeDecision(pr, n):
         after_log = pr[2][1]
         if len(before) > 0:
             for o in re.finditer(before, pr[2][0], re.I):
-                scores[opt] += (o.end() - o.start()) * max((20 - len(pr[2][0]) + o.end()), 1)**2
+                scores[opt] += max((o.end() - o.start())/4, 1) * max((20 - len(pr[2][0]) + o.end()), 1)**2
                 if rand == 1:
                     before_log = before_log[:o.start()] + before_log[o.start():o.end()].upper() + before_log[o.end():]
         if len(after) > 0 :
             for o in re.finditer(after, pr[2][1], re.I):
-                scores[opt] += (o.end() - o.start()) * max(20 - o.start() + 1, 1)**2
+                scores[opt] += max((o.end() - o.start())/4, 1) * max(20 - o.start() + 1, 1)**2
                 if rand == 1:
                     after_log = after_log[:o.start()] + after_log[o.start():o.end()].upper() + after_log[o.end():]
         if rand == 1:
@@ -119,14 +123,30 @@ def makeDecision(pr, n):
             resInd = ind
     if rand == 1:
         log_dict[len(log_dict)] = st + opts[resInd] + '\n'            
-    return opts[resInd]
-t0 = time.clock()
+    pr.append(opts[resInd])
+    return pr
+
+t0 = datetime.datetime.now()
 if __name__ == "__main__":
-    descs = Parallel(n_jobs = num_cores)(delayed(makeDecision)(pr, n) for pr in allOcs)
-print((time.clock() - t0)/60)
+    allOcs = Parallel(n_jobs = num_cores)(delayed(makeDecision)(pr, n) for pr in allOcs)
+print((datetime.datetime.now() - t0).total_seconds()/60)
 
 if args.log:
     with open(args.log, 'w') as out:
         for key in log_dict:
             out.write(log_dict[key])
             out.write('\n-----------\n\n')
+
+if args.o:
+    print("Writing file")
+    allOcs.sort(key = lambda el: el[1])
+    newText = ''
+    pos = 0
+
+    for pr in allOcs:
+        newText += text[pos:pr[1]] + pr[3]
+        pos = len(newText) + 1
+    newText += text[pos:]
+
+    with open(args.o, 'w') as out:
+        out.write(newText)
