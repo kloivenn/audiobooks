@@ -1,19 +1,20 @@
 python3 changeText/apply_dicts.py -i withErrors/raw.txt -o withErrors/1_firstStep.txt -dl lists/full.txt
+python3 changeText/apply_and_find.py -i withErrors/raw.txt -o withErrors/1_find.txt -dl lists/full.txt
 python3 changeText/change_homs.py -d all_omographs.hmg -i withErrors/1_firstStep.txt -n 1 -log withErrors/2_homs.txt
 python3 changeText/change_homs.py -d all_omographs.hmg -i withErrors/1_firstStep.txt -n 1 -log withErrors/2_homs.txt -o withErrors/2_secondStep.txt
 python3 changeText/apply_dic.py -d pron.dic -i withErrors/2_secondStep.txt -o withErrors/3_thirdStep.txt
-python 3textToSpeach/readByLine.py -i withErrors/3_thirdStep.txt
+python3 textToSpeach/readByLine.py -i withErrors/3_thirdStep.txt
 python3 changeText/apply_dic.py -d pron.dic -i withErrors/3_confirm.txt -o withErrors/3_confirm_read.txt
 python3 textToSpeach/readByLine.py -i withErrors/3_confirm_read.txt
 
 python3 decapitalize.py -i dicts/all_omographs.hmg -o dicts/01a_smallLetters.txt
 
 python3 changeText/apply_dicts.py -i text/fanfics.txt -o text/1_firstStep.txt -dl lists/full.txt -c True
-python3 changeText/change_homs.py -d all_omographs.hmg -i text/1_firstStep.txt -n 25 -log text/2_homs.txt
+python3 changeText/change_homs.py -d all_omographs.hmg -i text/1_firstStep.txt -n 20 -log text/2_homs.txt
 python3 changeText/change_homs.py -d all_omographs.hmg -i text/1_firstStep.txt -o text/2_secondStep.txt
 python3 changeText/find_names.py -i text/2_secondStep.txt -o text/names.txt -d names.dic
 python3 changeText/apply_dic.py -i text/2_secondStep.txt -o text/3_thirdStep.txt -dl lists/pron.txt
 perl textToSpeach/txt2ssml.pl -s medium text/3_thirdStep.txt > book.ssml
 python3 textToSpeach/ssml2mp3.py -o Fanfics.mp3 --voice Maxim book.ssml
 
-search for :< '<
+search for :</ '</ "</
