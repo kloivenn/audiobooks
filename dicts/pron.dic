@@ -2828,11 +2828,6 @@ $повестИ=<phoneme ph="pəvʲɪstʲˈi"/>
 $пОвести=<phoneme ph="pˈovʲɪstʲɪ"/>
 $поводУ=<phoneme ph="pəvɐdˈu"/>
 $поволокИ=<phoneme ph="pəvəlɐkʲˈi"/>
-$поглОтим=<phoneme ph="pɐɡl'o tʲim"/>
-$поглОтит=<phoneme ph="pɐɡl'otʲit"/>
-$поглОтите=<phoneme ph="pɐɡl'o tʲitʲi"/>
-$поглОтишь=<phoneme ph="pɐɡl'o tʲiʂ"/>
-$поглОтят=<phoneme ph="pɐɡl'otʲit"/>
 $погонИ=<phoneme ph="pəɡɐnʲˈ i"/>
 $погОни=<phoneme ph="pɐɡˈonʲɪ"/>
 $погонЮ=<phoneme ph="pəɡɐnʲˈʉ"/>
@@ -7452,11 +7447,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 повалят=<phoneme ph="pɐvˈalʲət"/>
 повести=<phoneme ph="pəvʲɪstʲˈi"/>
 поволоки=<phoneme ph="pəvəlɐkʲˈi"/>
-поглотим=<phoneme ph="pɐɡl'o tʲim"/>
-поглотит=<phoneme ph="pɐɡl'otʲit"/>
-поглотите=<phoneme ph="pɐɡl'o tʲitʲi"/>
-поглотишь=<phoneme ph="pɐɡl'o tʲiʂ"/>
-поглотят=<phoneme ph="pɐɡl'otʲit"/>
 погони=<phoneme ph="pɐg'onʲi"/>
 погреба=<phoneme ph="pəɡrʲɪbˈa"/>
 погрузите=<phoneme ph="pɐɡrˈu zʲɪtʲɪ"/>
@@ -8566,7 +8556,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 утке=<phoneme ph="'ut kʲi"/>
 утки=<phoneme ph="ˈutkʲɪ"/>
 утку=<phoneme ph="ˈutkʊ"/>
-уток=<phoneme ph="ˈutək"/>
 утопает=<phoneme ph="ʊtˈopəjɪt"/>
 утопаешь=<phoneme ph="ʊtˈopəʲɪʂ"/>
 утопал=<phoneme ph="ʊtˈopəl"/>
@@ -18622,7 +18611,6 @@ oolong=<phoneme ph="ul'un"/>
 второстепенен=<phoneme ph="vtərəsʲ tʲipʲ'enʲin"/>
 второстепенное=<phoneme ph="vtərəstʲɪpʲˈennɐje"/>
 второстепенный=<phoneme ph="vtərəstʲɪpʲˈennᵻj"/>
-вторя=<phoneme ph="ftɐrʲˈæ"/>
 вторящий=<phoneme ph="ftˈorʲəɕːɪj"/>
 вточь=<phoneme ph="vtˈot͡ɕ"/>
 втравил=<phoneme ph="vtrɐvʲˈil"/>
@@ -33314,7 +33302,6 @@ oolong=<phoneme ph="ul'un"/>
 лестницам=<phoneme ph="lʲ'esʲnʲ it͡səm"/>
 лестницами=<phoneme ph="lʲ'esʲnʲ it͡səmʲi"/>
 лестницах=<phoneme ph="lʲ'esʲ nʲit͡səx"/>
-лестнице=<phoneme ph="lʲ'esʲnʲi t͡sɨ"/>
 лестницей=<phoneme ph="lʲ'esʲ nʲit͡sʲij"/>
 лестницею=<phoneme ph="lʲ'esʲ nʲit͡sɨj u"/>
 лестницу=<phoneme ph="lʲ'esʲnʲit͡su"/>
@@ -57460,7 +57447,7 @@ $кучерА=<phoneme alphabet="x-sampa" ph='kUtS@r"a'/>
 напоровшись=<phoneme alphabet="x-sampa" ph='n6p6r"ov\S@s_j'/>
 полусумраку=<phoneme alphabet="x-sampa" ph='p%olUs"Umr@kU'/>
 обстригать=<phoneme alphabet="x-sampa" ph='6bstr_jig"at_j'/>
-замершую=<phoneme alphabet="x-sampa" ph='z"am_j@rSUjU'/>
+замершую=<phoneme alphabet="x-sampa" ph='z"am1rSUjU'/>
 цыкнула=<phoneme alphabet="x-sampa" ph='ts"I\knUl@'/>
 глупцам=<phoneme alphabet="x-sampa" ph='glUpts"am'/>
 $парУ=<phoneme alphabet="x-sampa" ph='p6r"u'/>
@@ -57642,3 +57629,10 @@ $прорЕзавшееся=<phoneme alphabet="x-sampa" ph='pr6r"ez@vS@_j@s_j@'/
 валику=<phoneme alphabet="x-sampa" ph='v"al_jikU'/>
 олениха=<phoneme alphabet="x-sampa" ph='6l_j"en_jih@'/>
 потрёпан=<phoneme alphabet="x-sampa" ph='p6tr_j"op@n'/>
+вылупятся=<phoneme alphabet="x-sampa" ph='v"I\lUp_j@ts:@'/>
+напечатаете=<phoneme alphabet="x-sampa" ph='n@p_jetS"at@_j@t_je'/>
+$гУбы=<phoneme alphabet="x-sampa" ph='g"ubI\'/>
+занавесив=<phoneme alphabet="x-sampa" ph='z@n6v_j"es_jiv'/>
+размыкал=<phoneme alphabet="x-sampa" ph='r@zmI\k"al'/>
+расползётся=<phoneme alphabet="x-sampa" ph='r@sp6lz_j"ots:@'/>
+вздремни=<phoneme alphabet="x-sampa" ph='vzdr_j@mn_j"i'/>

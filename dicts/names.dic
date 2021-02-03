@@ -698,3 +698,56 @@ $Морко=<phoneme alphabet="x-sampa" ph='m"ork6'/>
 $Маглор=Маглор
 $Куруфин=Куруфин
 $Арман=Арман
+$Ринганор=<phoneme alphabet="x-sampa" ph='r_jing6n"or'/>
+$Ринганора=<phoneme alphabet="x-sampa" ph='r_jing@n"or@'/>
+$Ринганору=<phoneme alphabet="x-sampa" ph='r_jing6n"orU'/>
+$Ринганором=<phoneme alphabet="x-sampa" ph='r_jing@n"or@m'/>
+$Ринганоре=<phoneme alphabet="x-sampa" ph='r_jing6n"or_j@'/>
+$Маэдрос=<phoneme alphabet="x-sampa" ph='m6"Edr@s'/>
+$Маэдроса=<phoneme alphabet="x-sampa" ph='m6"Edr@s@'/>
+$Маэдросу=<phoneme alphabet="x-sampa" ph='m6"Edr@sU'/>
+$Маэдросом=<phoneme alphabet="x-sampa" ph='m6"Edr@s@m'/>
+$Маэдросе=<phoneme alphabet="x-sampa" ph='m6"Edr@s_j@'/>
+$Амбридж=Амбридж
+$Джим=Джим
+$Бельт=Бельт
+$Тирнель=Тирнель
+$Стоун=Стоун
+$Стоуне=<phoneme alphabet="x-sampa" ph='st"oUn_je'/>
+$Хеннаро=<phoneme alphabet="x-sampa" ph='h_j@\nn"aro'/>
+$Ородрет=<phoneme alphabet="x-sampa" ph='@r6dr"Et'/>
+$Ородрета=<phoneme alphabet="x-sampa" ph='@r6dr"Et@'/>
+$Ородретом=<phoneme alphabet="x-sampa" ph='@r6dr"Et@m'/>
+$Ородрету=<phoneme alphabet="x-sampa" ph='@r6dr"EtU'/>
+$Ородрете=<phoneme alphabet="x-sampa" ph='@r6dr"Et_j@'/>
+$Александр=Александр
+$Белла=<phoneme alphabet="x-sampa" ph='b"Ell@'/>
+$Беллой=<phoneme alphabet="x-sampa" ph='b"Ell@j'/>
+$Белле=<phoneme alphabet="x-sampa" ph='b"Ell_je'/>
+$Беллы=<phoneme alphabet="x-sampa" ph='b"EllI\'/>
+$Беллу=<phoneme alphabet="x-sampa" ph='b"EllU'/>
+$Алекс=Алекс
+$Барти=Барти
+$Трэйси=<phoneme alphabet="x-sampa" ph='tr"Ejs_ji'/>
+$Тайдвен=<phoneme alphabet="x-sampa" ph='t"ajdv_jen'/>
+$Тайдвена=<phoneme alphabet="x-sampa" ph='t"ajdv_jen@'/>
+$Тайдвену=<phoneme alphabet="x-sampa" ph='t"ajdv_jenU'/>
+$Тайдвеном=<phoneme alphabet="x-sampa" ph='t"ajdv_jen@m'/>
+$Тайдвене=<phoneme alphabet="x-sampa" ph='t"ajdv_jen_j@'/>
+$Динен=<phoneme alphabet="x-sampa" ph='d_j"in@\n'/>
+$Динена=<phoneme alphabet="x-sampa" ph='d_j"in@\n@'/>
+$Динену=<phoneme alphabet="x-sampa" ph='d_j"in@\nU'/>
+$Диненом=<phoneme alphabet="x-sampa" ph='d_j"in@\n@m'/>
+$Динене=<phoneme alphabet="x-sampa" ph='d_j"in@\n_j@'/>
+$Гвиндор=Гвиндор
+$Гвиндором=<phoneme alphabet="x-sampa" ph='gv_jind"or@m'/>
+$Эйтель=<phoneme alphabet="x-sampa" ph='Ejt"El_j'/>
+$Эйтеля=<phoneme alphabet="x-sampa" ph='Ejt"El_ja'/>
+$Эйтелю=<phoneme alphabet="x-sampa" ph='Ejt"El_jU'/>
+$Эйтелем=<phoneme alphabet="x-sampa" ph='Ejt"El_j@m'/>
+$Эйтеле=<phoneme alphabet="x-sampa" ph='Ejt"El_j@'/>
+$Маэнор=<phoneme alphabet="x-sampa" ph='m@En"or'/>
+$Маэнора=<phoneme alphabet="x-sampa" ph='m@En"or@'/>
+$Маэнору=<phoneme alphabet="x-sampa" ph='m@En"orU'/>
+$Маэнором=<phoneme alphabet="x-sampa" ph='m@En"or@m'/>
+$Маэноре=<phoneme alphabet="x-sampa" ph='m@En"or_j@'/>

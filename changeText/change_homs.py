@@ -145,7 +145,7 @@ if args.o:
 
     for pr in allOcs:
         newText += text[pos:pr[1]] + pr[3]
-        pos = len(newText) + 1
+        pos = len(newText)
     newText += text[pos:]
 
     with open(args.o, 'w') as out:

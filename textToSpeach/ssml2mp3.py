@@ -43,7 +43,8 @@ count = 0
 file_index = 1
 
 # Do for all pieces
-while i < len(pieces):
+#while i < len(pieces):
+while i < 900:
     #generate a file name and open a file
     if file_index < 10:
         file_name = "00" + str(file_index) + "_" + outfile
