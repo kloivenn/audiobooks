@@ -32,7 +32,7 @@ voice = args.voice or "Salli"
 #voice = "Joanna"
 
 infile = args.infile
-i = 0
+i = 1350
 n_pieces = 9
 
 pieces = []
@@ -40,11 +40,11 @@ with open(infile, "r") as f:
     pieces = [l for l in (line.strip() for line in f) if l]
 
 count = 0
-file_index = 1
+file_index = 151
 
 # Do for all pieces
-#while i < len(pieces):
-while i < 900:
+while i < len(pieces):
+#while i < 1350:
     #generate a file name and open a file
     if file_index < 10:
         file_name = "00" + str(file_index) + "_" + outfile
