@@ -800,3 +800,52 @@ $Даркнеса=<phoneme alphabet="x-sampa" ph='d"arkn@s@'/>
 $Даркнесу=<phoneme alphabet="x-sampa" ph='d"arkn@sU'/>
 $Даркнесом=<phoneme alphabet="x-sampa" ph='d"arkn@s@m'/>
 $Даркнесе=<phoneme alphabet="x-sampa" ph='d"arkn@s_j@'/>
+$Ликс=Ликс
+$Лея=Лея
+$Омнио=Омнио
+$Элоа=Элоа
+$Караг=Караг
+$Карагом=<phoneme alphabet="x-sampa" ph='k6r"ag@m'/>
+$Караге=<phoneme alphabet="x-sampa" ph='k6r"ag_je'/>
+$Тамр=Тамр
+$Тамром=<phoneme alphabet="x-sampa" ph='t"amr@m'/>
+$Тамра=<phoneme alphabet="x-sampa" ph='t"amr@'/>
+$Тамру=<phoneme alphabet="x-sampa" ph='t"amrU'/>
+$Тамре=<phoneme alphabet="x-sampa" ph='t"amr_j@'/>
+$Фиджет=<phoneme alphabet="x-sampa" ph='f_j"idZ\1t'/>
+$Фиджета=<phoneme alphabet="x-sampa" ph='f_j"idZ\1t@'/>
+$Фиджету=<phoneme alphabet="x-sampa" ph='f_j"idZ\1tU'/>
+$Фиджетом=<phoneme alphabet="x-sampa" ph='f_j"idZ\1t@m'/>
+$Фиджете=<phoneme alphabet="x-sampa" ph='f_j"idZ\1t_j@'/>
+$Мыкола=Мыкола
+$Мыколе=<phoneme alphabet="x-sampa" ph='mI\k"ol_j1'/>
+$Мыколы=<phoneme alphabet="x-sampa" ph='mI\k"olI\'/>
+$Мыколой=<phoneme alphabet="x-sampa" ph='mI\k"ol@j'/>
+$Мыколу=<phoneme alphabet="x-sampa" ph='mI\k"olU'/>
+$Вейдер=<phoneme alphabet="x-sampa" ph='v"Ejd@r'/>
+$Вейдера=<phoneme alphabet="x-sampa" ph='v"Ejd1r@'/>
+$Вейдеру=<phoneme alphabet="x-sampa" ph='v"Ejd1rU'/>
+$Вейдером=<phoneme alphabet="x-sampa" ph='v"Ejd1r@m'/>
+$Вейдере=<phoneme alphabet="x-sampa" ph='v"Ejd1r_j@'/>
+$Иероним=<phoneme alphabet="x-sampa" ph='ijer6n_j"im'/>
+$Иеронимом=<phoneme alphabet="x-sampa" ph='ijer6n_j"im@m'/>
+$Фидж=Фидж
+$Фиджа=<phoneme alphabet="x-sampa" ph='f_j"idZ\@'/>
+$Фиджем=<phoneme alphabet="x-sampa" ph='f_j"idZ\1m'/>
+$Фиджу=<phoneme alphabet="x-sampa" ph='f_j"idZ\U'/>
+$Фидже=<phoneme alphabet="x-sampa" ph='f_j"idZ\1'/>
+$Викрам=<phoneme alphabet="x-sampa" ph='v_jikr"am'/>
+$Суккуб=Суккуб
+$Вик=Вик
+$Виком=<phoneme alphabet="x-sampa" ph='v_j"ik@m'/>
+$Уилленрой=<phoneme alphabet="x-sampa" ph='Ujil_j1nr"oj'/>
+$Уилленроем=<phoneme alphabet="x-sampa" ph='Ujil_j1nr"ojem'/>
+$Уилленрою=<phoneme alphabet="x-sampa" ph='Ujil_j1nr"ojU'/>
+$Уилленрое=<phoneme alphabet="x-sampa" ph='Ujil_j1nr"oje'/>
+$Уилленроя=<phoneme alphabet="x-sampa" ph='Ujil_j1nr"oj@'/>
+$Лио=Лио
+$УбойнаяСила=Убойная Сила
+$УбойнойСилы=Убойной Силы
+$УбойнойСиле=Убойной Силе
+$УбойнойСилой=Убойной Силой
+$УбойнуюСилу=Убойную Силу

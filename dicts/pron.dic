@@ -6150,7 +6150,6 @@ $Ястребов=<phoneme ph="jˈæstrʲɪbəf"/>
 доктора=<phoneme ph="dˈoktərə"/>
 долами=<phoneme ph="dɐlˈamʲɪ"/>
 долготы=<phoneme ph="dɐlɡɐtˈɨ"/>
-долгу=<phoneme ph="dɐlɡˈu"/>
 долей=<phoneme ph="d'olʲɪj"/>
 долечитесь=<phoneme ph="dɐlʲˈet͡ɕɪtʲɪsʲ"/>
 домового=<phoneme ph="dəmɐvˈovə"/>
@@ -6443,11 +6442,6 @@ $Ястребов=<phoneme ph="jˈæstrʲɪbəf"/>
 зерна=<phoneme ph="zʲɪrnˈ a"/>
 зимы=<phoneme ph="zʲɪm'ɨ"/>
 злата=<phoneme ph="zlˈatə"/>
-змеи=<phoneme ph="zmʲɪˈi"/>
-змею=<phoneme ph="zmʲɪjˈʉ"/>
-змея=<phoneme ph="zmʲɪjˈæ"/>
-золотом=<phoneme ph="z'olətəm"/>
-золы=<phoneme ph="zɐlˈɨ"/>
 зубрим=<phoneme ph="zʊbrʲˈi m"/>
 зубрят=<phoneme ph="zʊbrʲˈæt"/>
 зубчатое=<phoneme ph="zʊbt͡ɕˈætəjə"/>
@@ -8556,12 +8550,6 @@ $отрубИ=<phoneme ph="ɐtrʊbʲˈi"/>
 утке=<phoneme ph="'ut kʲi"/>
 утки=<phoneme ph="ˈutkʲɪ"/>
 утку=<phoneme ph="ˈutkʊ"/>
-утопает=<phoneme ph="ʊtˈopəjɪt"/>
-утопаешь=<phoneme ph="ʊtˈopəʲɪʂ"/>
-утопал=<phoneme ph="ʊtˈopəl"/>
-утопала=<phoneme ph="ʊtˈopələ"/>
-утопали=<phoneme ph="ʊtˈopəlʲɪ"/>
-утопать=<phoneme ph="ʊtˈopətʲ"/>
 утра=<phoneme ph="ʊtr'a"/>
 утру=<phoneme ph="ʊtrˈu"/>
 уха=<phoneme ph="ˈux ə"/>
@@ -11768,7 +11756,6 @@ zippo=<phoneme ph="zʲ'ippə"/>
 лермонтовские=<phoneme ph="lʲˈermɐntɐfskɪjə"/>
 лёхиной=<phoneme ph="lʲˈoxʲɪnəj"/>
 лешаги=<phoneme ph="lʲɪʂˈaɡʲɪ"/>
-ли=<phoneme ph="lʲ'i"/>
 либерти=<phoneme ph="lʲˈibʲɪrtʲɪ"/>
 лившицам=<phoneme ph="lʲ'i vʂət͡səm"/>
 лившицах=<phoneme ph="lʲ'i vʂət͡səx"/>
@@ -57643,3 +57630,9 @@ $гУбы=<phoneme alphabet="x-sampa" ph='g"ubI\'/>
 помертвело=<phoneme alphabet="x-sampa" ph='p@m_jertv_j"el@'/>
 приободрившись=<phoneme alphabet="x-sampa" ph='pr_ji@b6dr_j"ivSI\s_j'/>
 холёным=<phoneme alphabet="x-sampa" ph='h6l_j"onI\m'/>
+пыхал=<phoneme alphabet="x-sampa" ph='p"I\h@l'/>
+приписываемую=<phoneme alphabet="x-sampa" ph='pr_jip_j"isI\v@jemUjU'/>
+$бочкАм=<phoneme alphabet="x-sampa" ph='b6tSk"am'/>
+живодёрни=<phoneme alphabet="x-sampa" ph='Z\I\v6d_j"orn_ji'/>
+завесив=<phoneme alphabet="x-sampa" ph='z6v_j"es_jiv'/>
+шелковистой=<phoneme alphabet="x-sampa" ph='S\@lk6v_j"ist@j'/>
