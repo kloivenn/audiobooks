@@ -1629,8 +1629,7 @@ $искрЯщимся=<phoneme ph="ɪskrʲˈæɕːɪmsʲə"/>
 $испИтым=<phoneme ph="ɪspʲˈitᵻm"/>
 $испОлним=<phoneme ph="ɪspˈolnʲɪm"/>
 $истОму=<phoneme ph="ɪstˈomʊ"/>
-$Ищите=<phoneme ph="ʲˈiɕːɪtʲɪ"/>
-$ищИте=<phoneme ph="ɪɕːˈitʲɪ"/>
+ищете=<phoneme alphabet="x-sampa" ph='"is\:@t_je'/>
 $казАков=<phoneme ph="kɐzˈakəf"/>
 $казАнки=<phoneme ph="kɐzˈankʲɪ"/>
 $казАчка=<phoneme ph="kɐzˈat͡ɕkə"/>
@@ -57636,3 +57635,22 @@ $бочкАм=<phoneme alphabet="x-sampa" ph='b6tSk"am'/>
 живодёрни=<phoneme alphabet="x-sampa" ph='Z\I\v6d_j"orn_ji'/>
 завесив=<phoneme alphabet="x-sampa" ph='z6v_j"es_jiv'/>
 шелковистой=<phoneme alphabet="x-sampa" ph='S\@lk6v_j"ist@j'/>
+пустоголовому=<phoneme alphabet="x-sampa" ph='pUst@g6l"ov@mU'/>
+дорогущую=<phoneme alphabet="x-sampa" ph='d@r6g"us\:@jU'/>
+ума-то=<phoneme alphabet="x-sampa" ph='Um"at@'/>
+бархатистые=<phoneme alphabet="x-sampa" ph='b@rh6t_j"istI\je'/>
+стерженёк=<phoneme alphabet="x-sampa" ph='st_j@rZ\{n_j"ok'/>
+ворочаю=<phoneme alphabet="x-sampa" ph='v6r"otS\@jU'/>
+$вЕдомое=<phoneme alphabet="x-sampa" ph='v_j"ed@m@je'/>
+свежуют=<phoneme alphabet="x-sampa" ph='sv_jeZ\"ujUt'/>
+переколотили=<phoneme alphabet="x-sampa" ph='p_jer_jek@l6t_j"il_ji'/>
+наперво=<phoneme alphabet="x-sampa" ph='n"ap_jerv@'/>
+послушникам=<phoneme alphabet="x-sampa" ph='p@sl"US\n_jik@m'/>
+$рОдни=<phoneme alphabet="x-sampa" ph='r"odn_ji'/>
+светёлку=<phoneme alphabet="x-sampa" ph='sv_jet_j"olkU'/>
+скелетон=<phoneme alphabet="x-sampa" ph='sk_jel_jet"on'/>
+мала=<phoneme alphabet="x-sampa" ph='m6l"a'/>
+экзальтированная=<phoneme alphabet="x-sampa" ph='Ekz6l_jt_j"ir@v@nn@j@'/>
+повздоривших=<phoneme alphabet="x-sampa" ph='p6vzd"or_jivS\I\h'/>
+новостную=<phoneme alphabet="x-sampa" ph='n@v6sn"ujU'/>
+вводил=<phoneme alphabet="x-sampa" ph='vv@d_j"il'/>

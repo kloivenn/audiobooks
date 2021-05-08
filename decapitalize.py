@@ -21,6 +21,7 @@ with open(args.o, 'w') as out:
                 check = True
             else:
                 if check:
-                    out.write('\\b' + wordCap + '\\b' + '/s/' + word + '/s/r/s/1\n')
+                    out.write(wordCap + '/s/' + word + '/s/b/s/1\n')
                 check = False
             line = dic.readline()
+    out.write('ъъъ/s//s/n/s/0\n')
