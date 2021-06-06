@@ -92,28 +92,36 @@ def makeDecision(pr, n):
         return pr
     scores = [0] * len(opts)
     insts = [0] * len(opts)
-    opt = 0
+    opt = -1
+    test = 1
     st = ''
     while opt < len(opts):
-        before = dictEntr[pr[0] + 2 + opt*3][(dictEntr[pr[0] + 2 + opt*3].find(':') + 1):-1]
-        after = dictEntr[pr[0] + 3 + opt*3][(dictEntr[pr[0] + 3 + opt*3].find(':') + 1):-1]
-        insts[opt] = before.count('|') + after.count('|')
-        before_log = pr[2][0]
-        after_log = pr[2][1]
-        if len(before) > 0:
-            for o in re.finditer(before, pr[2][0], re.I):
-                scores[opt] += max((o.end() - o.start())/4, 1) * max((20 - len(pr[2][0]) + o.end()), 1)**2
-                if rand == 1:
-                    before_log = before_log[:o.start()] + before_log[o.start():o.end()].upper() + before_log[o.end():]
-        if len(after) > 0 :
-            for o in re.finditer(after, pr[2][1], re.I):
-                scores[opt] += max((o.end() - o.start())/4, 1) * max(20 - o.start() + 1, 1)**2
-                if rand == 1:
-                    after_log = after_log[:o.start()] + after_log[o.start():o.end()].upper() + after_log[o.end():]
-        if rand == 1:
-            st += str(scores[opt]) + ': ' + before_log + ' _' + opts[opt] + '_ ' + after_log + '\n'
-
-        opt += 1
+        line = dictEntr[pr[0] + test]
+        if line.find(':') == -1:
+            if rand == 1 and opt > -1:
+                st += str(scores[opt]) + ': ' + before_log + ' _' + opts[opt] + '_ ' + after_log + '\n'
+            opt += 1
+            before_log = pr[2][0]
+            after_log = pr[2][1]
+        else:
+            insts[opt] += line.count('|')
+            testType = line[:line.find(':')]
+            coef = testType.count('+') * 0.5 + 1
+            testType = testType.replace('+', '')
+            testBody = line[(line.find(':') + 1):-1]
+            
+            if len(testBody) > 0:  
+                if testType == "before":
+                    for o in re.finditer(testBody, pr[2][0], re.I):
+                        scores[opt] += coef * max((o.end() - o.start())/4, 1) * max((20 - len(pr[2][0]) + o.end()), 1)**2
+                        if rand == 1:
+                            before_log = before_log[:o.start()] + before_log[o.start():o.end()].upper() + before_log[o.end():]
+                elif testType == "after":
+                    for o in re.finditer(testBody, pr[2][1], re.I):
+                        scores[opt] += coef * max((o.end() - o.start())/4, 1) * max(20 - o.start() + 1, 1)**2
+                        if rand == 1:
+                            after_log = after_log[:o.start()] + after_log[o.start():o.end()].upper() + after_log[o.end():]
+        test += 1
 
     maxScore = max(scores)
     maxInd = [i for i, j in enumerate(scores) if j == maxScore]
