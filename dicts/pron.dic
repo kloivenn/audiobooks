@@ -1465,7 +1465,7 @@ $замЫкал=<phoneme ph="zɐmˈɨkəl"/>
 $замыкАл=<phoneme ph="zəmᵻkˈal"/>
 $замыкАла=<phoneme ph="zəmᵻkˈalə"/>
 $замЫкала=<phoneme ph="zɐmˈɨkələ"/>
-$замыкАлась=<phoneme ph="zəmᵻkˈalɐsʲ"/>
+$замыкАлась=<phoneme ph="zəmᵻkˈaləsʲ"/>
 $замЫкалась=<phoneme ph="zɐmˈɨkələsʲ"/>
 $замыкАли=<phoneme ph="zəmᵻkˈalʲɪ"/>
 $замЫкали=<phoneme ph="zɐmˈɨkəlʲɪ"/>
@@ -53810,3 +53810,8 @@ $нОра=<phoneme alphabet="x-sampa" ph='n"or@'/>
 $нОре=<phoneme alphabet="x-sampa" ph='n"or_j@'/>
 $нОру=<phoneme alphabet="x-sampa" ph='n"orU'/>
 $нОрой=<phoneme alphabet="x-sampa" ph='n"or@j'/>
+фиалковые=<phoneme alphabet="x-sampa" ph='f_ji"alk@vI\j@'/>
+засахаренными=<phoneme alphabet="x-sampa" ph='z6s"ah@r_jennI\m_ji'/>
+$лЕтки=<phoneme alphabet="x-sampa" ph='l_j"etk_ji'/>
+шуруй=<phoneme alphabet="x-sampa" ph='S\Ur"uj'/>
+$подвИг=<phoneme alphabet="x-sampa" ph='p6dv_j"ig'/>

@@ -121,6 +121,8 @@ def makeDecision(pr, n):
                         scores[opt] += coef * max((o.end() - o.start())/4, 1) * max(20 - o.start() + 1, 1)**2
                         if rand == 1:
                             after_log = after_log[:o.start()] + after_log[o.start():o.end()].upper() + after_log[o.end():]
+                else:
+                    print("Unknown type " + testType + " line " + str(pr[0] + test))
         test += 1
 
     maxScore = max(scores)
