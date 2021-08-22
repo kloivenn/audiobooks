@@ -1082,7 +1082,7 @@ $горЕ=<phoneme ph="gɐrʲ'e"/>
 $гОре=<phoneme ph="ɡˈorʲɪ"/>
 $горИ=<phoneme ph="ɡɐrʲˈi"/>
 $гОрода=<phoneme ph="ɡˈorədə"/>
-$городА=<phoneme ph="ɡɐrɐdˈa"/>
+$городА=<phoneme ph="ɡərɐdˈa"/>
 $гОры=<phoneme ph="ɡˈorᵻ"/>
 $горЫ=<phoneme ph="gɐr'ɨ"/>
 $гОрю=<phoneme ph="ɡˈorʲʉ"/>
@@ -53815,3 +53815,36 @@ $нОрой=<phoneme alphabet="x-sampa" ph='n"or@j'/>
 $лЕтки=<phoneme alphabet="x-sampa" ph='l_j"etk_ji'/>
 шуруй=<phoneme alphabet="x-sampa" ph='S\Ur"uj'/>
 $подвИг=<phoneme alphabet="x-sampa" ph='p6dv_j"ig'/>
+возгласах=<phoneme alphabet="x-sampa" ph='v"ozgl@s@h'/>
+ступеням=<phoneme alphabet="x-sampa" ph='stUp_j"en_j@m'/>
+рефлекторно=<phoneme alphabet="x-sampa" ph='r_jefl_jekt"orn@'/>
+контролем=<phoneme alphabet="x-sampa" ph='k6ntr"ol_jem'/>
+заперся=<phoneme alphabet="x-sampa" ph='z"ap_jers_j@'/>
+выкажу=<phoneme alphabet="x-sampa" ph='v"I\k@Z\U'/>
+поста=<phoneme alphabet="x-sampa" ph='p6st"a'/>
+выцепили=<phoneme alphabet="x-sampa" ph='v"I\ts@p_jil_ji'/>
+подёргав=<phoneme alphabet="x-sampa" ph='p6d_j"org@v'/>
+$отмелИ=<phoneme alphabet="x-sampa" ph='6tm_jel_j"i'/>
+теша=<phoneme alphabet="x-sampa" ph='t_j"eS\@'/>
+$боЯх=<phoneme alphabet="x-sampa" ph='b6j"ah'/>
+$слУчаем=<phoneme alphabet="x-sampa" ph='sl"utS@jem'/>
+$колЕт=<phoneme alphabet="x-sampa" ph='k6l_j"et'/>
+регентского=<phoneme alphabet="x-sampa" ph='r_j"eg_jentsk@v@'/>
+вдова=<phoneme alphabet="x-sampa" ph='vd6v"a'/>
+уличив=<phoneme alphabet="x-sampa" ph='Ul_jitS"iv'/>
+$пЯтки=<phoneme alphabet="x-sampa" ph='p_j"atk_ji'/>
+подводит=<phoneme alphabet="x-sampa" ph='p6dv"od_jit'/>
+$золЫ=<phoneme alphabet="x-sampa" ph='z6l"I\'/>
+кувшинами=<phoneme alphabet="x-sampa" ph='kUvS"I\n@m_ji'/>
+кувшином=<phoneme alphabet="x-sampa" ph='kUvS"I\n@m'/>
+толстые=<phoneme alphabet="x-sampa" ph='t"olstI\je'/>
+выручалочки=<phoneme alphabet="x-sampa" ph='vI\rUtS"al@tSk_ji'/>
+мастерски=<phoneme alphabet="x-sampa" ph='m"ast_jersk_ji'/>
+оборотней=<phoneme alphabet="x-sampa" ph='"ob@r@tn_jej'/>
+гоблинская=<phoneme alphabet="x-sampa" ph='g"obl_jinsk@j@'/>
+пруду=<phoneme alphabet="x-sampa" ph='prUd"u'/>
+$лИца=<phoneme alphabet="x-sampa" ph='l_j"its@'/>
+выраженно=<phoneme alphabet="x-sampa" ph='v"I\r@Z\enn@'/>
+$лУна=<phoneme alphabet="x-sampa" ph='l"un@'/>
+$лУной=<phoneme alphabet="x-sampa" ph='l"un@j'/>
+$лУне=<phoneme alphabet="x-sampa" ph='l"un_je'/>

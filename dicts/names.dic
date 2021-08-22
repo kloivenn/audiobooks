@@ -1000,3 +1000,51 @@ $Маллоуне=<phoneme alphabet="x-sampa" ph='mall"oUn_je'/>
 $Ингеборг=Ингеборг
 $Ингеборгу=<phoneme alphabet="x-sampa" ph='ing_jeb"orgU'/>
 $Ингеборгом=<phoneme alphabet="x-sampa" ph='ing_jeb"org@m'/>
+$Айн=Айн
+$Ворчок=Ворчок
+$Вольдеморт=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort'/>
+$Вольдеморта=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort@'/>
+$Вольдеморту=<phoneme alphabet="x-sampa" ph='v@ld@\m"ortU'/>
+$Вольдемортом=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort@m'/>
+$Вольдеморте=<phoneme alphabet="x-sampa" ph='v@ld@\m"ort_j@\'/>
+$Анико=<phoneme alphabet="x-sampa" ph='"an_jik6'/>
+$Снейгг=<phoneme alphabet="x-sampa" ph='sn"Ejp'/>
+$Снейгга=<phoneme alphabet="x-sampa" ph='sn"Ejp6'/>
+$Снеггом=<phoneme alphabet="x-sampa" ph='sn"Ejp@m'/>
+$Снеггу=<phoneme alphabet="x-sampa" ph='sn"EjpU'/>
+$Снегге=<phoneme alphabet="x-sampa" ph='sn"Ejpe'/>
+$Келеней=<phoneme alphabet="x-sampa" ph='kel@n"Ej'/>
+$Келенея=<phoneme alphabet="x-sampa" ph='kel@\n"Ej@'/>
+$Келенее=<phoneme alphabet="x-sampa" ph='kel@n"Eje'/>
+$Келенею=<phoneme alphabet="x-sampa" ph='kel@\n"EjU'/>
+$Келенеем=<phoneme alphabet="x-sampa" ph='kel@n"Ej@m'/>
+$Рудольф=Рудольф
+$Таула=Таула
+$Лейстрандж=<phoneme alphabet="x-sampa" ph='lestr"EjndZ'/>
+$Лейстранджа=<phoneme alphabet="x-sampa" ph='lestr"EjndZ@'/>
+$Лейстранджем=<phoneme alphabet="x-sampa" ph='lestr"EjndZem'/>
+$Лейстранджу=<phoneme alphabet="x-sampa" ph='lestr"EjndZU'/>
+$Лейстрандже=<phoneme alphabet="x-sampa" ph='lestr"EjndZe'/>
+$Варфоломеев=Варфоломеев
+$Плио=Плио
+$Родион=Родион
+$Боунс=<phoneme alphabet="x-sampa" ph='b"oUns'/>
+$Боунса=<phoneme alphabet="x-sampa" ph='b"oUns@'/>
+$Боунсом=<phoneme alphabet="x-sampa" ph='b"oUns@m'/>
+$Боунсе=<phoneme alphabet="x-sampa" ph='b"oUnse'/>
+$Боунсу=<phoneme alphabet="x-sampa" ph='b"oUnsU'/>
+$Цути=Цути
+$Долохов=<phoneme alphabet="x-sampa" ph='d"ol@h@v'/>
+$Долохова=<phoneme alphabet="x-sampa" ph='d"ol@h@v@'/>
+$Долохову=<phoneme alphabet="x-sampa" ph='d"ol@h@vU'/>
+$Долоховом=<phoneme alphabet="x-sampa" ph='d"ol@h@v@m'/>
+$Долохове=<phoneme alphabet="x-sampa" ph='d"ol@h@ve'/>
+$Каймэ=Каймэ
+$Рута=Рута
+$Рутой=<phoneme alphabet="x-sampa" ph='r"ut@j'/>
+$Лазарев=<phoneme alphabet="x-sampa" ph='l"az@rev'/>
+$Лазарева=<phoneme alphabet="x-sampa" ph='l"az@rev@'/>
+$Лазареву=<phoneme alphabet="x-sampa" ph='l"az@revU'/>
+$Лазаревом=<phoneme alphabet="x-sampa" ph='l"az@rev@m'/>
+$Лазареве=<phoneme alphabet="x-sampa" ph='l"az@reve'/>
+$Крэбб=Крэбб
