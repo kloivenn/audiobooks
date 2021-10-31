@@ -3102,7 +3102,7 @@ $посыпАвшийся=<phoneme ph="pəsᵻpˈafʂᵻj sʲə"/>
 $посыпАл=<phoneme ph="pɐsᵻpˈal"/>
 $Посыпал=<phoneme ph="pɐsˈɨpəl"/>
 $посыпАлась=<phoneme ph="pɐsᵻpˈalɐsʲ"/>
-$посЫпалась=<phoneme ph="pɐsˈɨpələsʲ"/>
+$посЫпалась=<phoneme alphabet="x-sampa" ph='p6s"I\p1l@s_j'/>
 $посыпАли=<phoneme ph="pɐsᵻpˈalʲɪ"/>
 $посыпАлись=<phoneme ph="pɐsᵻpˈalʲɪsʲ"/>
 $посЫпалось=<phoneme ph="pɐsˈɨpələsʲ"/>
@@ -48099,7 +48099,6 @@ $надвигАвшаяся=<phoneme ph="nədvʲɪɡˈafʂᵻʲəjəsʲə"/>
 снобу=<phoneme ph="snˈobʊ"/>
 снопом=<phoneme ph="snɐpˈom"/>
 сноровистее=<phoneme ph="snɐrˈovʲɪstʲɪjə"/>
-сноровисто=<phoneme ph="snɐrˈo vʲɪs tə"/>
 сноровистых=<phoneme ph="snɐrˈovʲɪstᵻx"/>
 сносившимися=<phoneme ph="snɐsʲˈifʂᵻ mʲɪ sʲə"/>
 сносками=<phoneme ph="snˈoskəmʲɪ"/>
@@ -53848,3 +53847,36 @@ $лИца=<phoneme alphabet="x-sampa" ph='l_j"its@'/>
 $лУна=<phoneme alphabet="x-sampa" ph='l"un@'/>
 $лУной=<phoneme alphabet="x-sampa" ph='l"un@j'/>
 $лУне=<phoneme alphabet="x-sampa" ph='l"un_je'/>
+крепежей=<phoneme alphabet="x-sampa" ph='kr_jep_jeZ"Ej'/>
+разомнёшься=<phoneme alphabet="x-sampa" ph='r@z6mn_j"oSs_j@'/>
+просмотренная=<phoneme alphabet="x-sampa" ph='pr6sm"otr_jenn@j@'/>
+толстым=<phoneme alphabet="x-sampa" ph='t"olstI\m'/>
+медотсека=<phoneme alphabet="x-sampa" ph='m_jed.6t.s_j"ek@'/>
+сканер=<phoneme alphabet="x-sampa" ph='sk"an_jer'/>
+сканером=<phoneme alphabet="x-sampa" ph='sk"an_jer@m'/>
+сноровисто=<phoneme alphabet="x-sampa" ph='sn6r"ov_j1st@'/>
+выводила=<phoneme alphabet="x-sampa" ph='vI\v6d_j"il@'/>
+ледник=<phoneme alphabet="x-sampa" ph='l_jedn_j"ik'/>
+шестерней=<phoneme alphabet="x-sampa" ph='Sest_jern_j"ej'/>
+испортило=<phoneme alphabet="x-sampa" ph='isp"ort_j1l@'/>
+мудренее=<phoneme alphabet="x-sampa" ph='mUdr_jen_j"eje'/>
+$чУток=<phoneme alphabet="x-sampa" ph='tS"ut@k'/>
+пережёванная=<phoneme alphabet="x-sampa" ph='p_jer_jeZ"ov@nn@j@'/>
+смыкает=<phoneme alphabet="x-sampa" ph='smI\k"ajet'/>
+$пылУ=<phoneme alphabet="x-sampa" ph='pI\.l"u'/>
+завтракавшему=<phoneme alphabet="x-sampa" ph='z"avtr@k@vSemU'/>
+малышка=<phoneme alphabet="x-sampa" ph='m6l"I\Sk@'/>
+$клубАх=<phoneme alphabet="x-sampa" ph='klUb"ah'/>
+ступенями=<phoneme alphabet="x-sampa" ph='stUp_j"en_j@m_ji'/>
+шарами=<phoneme alphabet="x-sampa" ph='S6r"am_ji'/>
+воздуховоду=<phoneme alphabet="x-sampa" ph='v6zdUh6v"odU'/>
+первозданное=<phoneme alphabet="x-sampa" ph='p_jerv6zd"ann@j@'/>
+умножив=<phoneme alphabet="x-sampa" ph='Umn"oZI\v'/>
+тишины=<phoneme alphabet="x-sampa" ph='t_jiSI\n"I\'/>
+ратушей=<phoneme alphabet="x-sampa" ph='r"atUSej'/>
+неповреждённой=<phoneme alphabet="x-sampa" ph='n_jep@vr_jeZd_j"onn@j'/>
+кучу=<phoneme alphabet="x-sampa" ph='k"utSU'/>
+$ворОнки=<phoneme alphabet="x-sampa" ph='v6r"onk_ji'/>
+проводком=<phoneme alphabet="x-sampa" ph='pr@v6dk"om'/>
+ящерок=<phoneme alphabet="x-sampa" ph='j"as\:er@k'/>
+беспроводные=<phoneme alphabet="x-sampa" ph='b_jespr@v6dn"I\j@'/>

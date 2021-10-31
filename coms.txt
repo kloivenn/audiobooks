@@ -17,4 +17,4 @@ python3 changeText/apply_dic.py -i text/2_secondStep.txt -o text/3_thirdStep.txt
 perl textToSpeach/txt2ssml.pl -s medium text/3_thirdStep.txt > book.ssml
 python3 textToSpeach/ssml2mp3.py -o Fanfics.mp3 --voice Maxim book.ssml
 
-search for :</ '</ "</
+search for ([\:\"\']</) ([a-z]\.</)
