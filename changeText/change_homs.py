@@ -106,8 +106,9 @@ def makeDecision(pr, n):
         else:
             insts[opt] += line.count('|')
             testType = line[:line.find(':')]
-            coef = testType.count('+') * 0.5 + 1
+            coef = testType.count('+') * 0.5 + 1 - testType.count('-') * 0.4
             testType = testType.replace('+', '')
+            testType = testType.replace('-', '')
             testBody = line[(line.find(':') + 1):-1]
             
             if len(testBody) > 0:  

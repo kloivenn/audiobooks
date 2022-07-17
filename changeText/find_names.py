@@ -16,7 +16,7 @@ with open(args.i, 'r') as f:
 
 def sort_list(list1, list2): 
     zipped_pairs = zip(list2, list1) 
-    z = [x for _, x in sorted(zipped_pairs)] 
+    z = [x for _, x in sorted(zipped_pairs, reverse=True)] 
     return z 
 
 words = []

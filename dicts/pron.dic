@@ -12714,7 +12714,6 @@ oolong=<phoneme ph="ul'un"/>
 буркнуло=<phoneme ph="bˈurknʊlə"/>
 буровит=<phoneme ph="bʊrˈovʲɪt"/>
 бурсаки=<phoneme ph="bʊrsɐkʲˈi"/>
-бурьяном=<phoneme ph="bʊrʲjɐnˈom"/>
 бусину=<phoneme ph="bˈusʲɪnʊ"/>
 бутафорить=<phoneme ph="bʊtɐfˈorʲɪtʲ"/>
 бутеров=<phoneme ph="bˈutʲɪrəf"/>
@@ -50717,7 +50716,6 @@ $надвигАвшаяся=<phoneme ph="nədvʲɪɡˈafʂᵻʲəjəsʲə"/>
 трофеить=<phoneme ph="trɐfʲˈeɪtʲ"/>
 трофеях=<phoneme ph="trɐfʲˈejɪx"/>
 троцкие=<phoneme ph="trˈot͡skɪjə"/>
-троя=<phoneme ph="trɐjˈæ"/>
 трубок=<phoneme ph="trˈubək"/>
 трубочного=<phoneme ph="trˈubɐt͡ɕnəvə"/>
 трубящее=<phoneme ph="trʊbʲˈæɕːɪjə"/>
@@ -53880,3 +53878,27 @@ $ворОнки=<phoneme alphabet="x-sampa" ph='v6r"onk_ji'/>
 проводком=<phoneme alphabet="x-sampa" ph='pr@v6dk"om'/>
 ящерок=<phoneme alphabet="x-sampa" ph='j"as\:er@k'/>
 беспроводные=<phoneme alphabet="x-sampa" ph='b_jespr@v6dn"I\j@'/>
+поле=<phoneme alphabet="x-sampa" ph='p"ol_je'/>
+$бредЯ=<phoneme alphabet="x-sampa" ph='br_jed_j"a'/>
+черноты=<phoneme alphabet="x-sampa" ph='tSern@t"I\'/>
+пятками=<phoneme alphabet="x-sampa" ph='p_j"atk@m_ji'/>
+кушаке=<phoneme alphabet="x-sampa" ph='kUS\6k_j"e'/>
+палку=<phoneme alphabet="x-sampa" ph='p"aalkU'/>
+$мОлодец=<phoneme alphabet="x-sampa" ph='m"ol@d_jets'/>
+протяжно=<phoneme alphabet="x-sampa" ph='pr6t_j"aZ\n@'/>
+еловая=<phoneme alphabet="x-sampa" ph='jel"ov@j@'/>
+поёрзала=<phoneme alphabet="x-sampa" ph='p6j"orz@l@'/>
+торги=<phoneme alphabet="x-sampa" ph='t6rg_j"i'/>
+шаров=<phoneme alphabet="x-sampa" ph='S\6r"ov'/>
+плена=<phoneme alphabet="x-sampa" ph='pl_j"en@'/>
+поравнявшись=<phoneme alphabet="x-sampa" ph='p@r6vn_j"avS\Is_j'/>
+мертвы=<phoneme alphabet="x-sampa" ph='m_jertv"I\'/>
+слизнул=<phoneme alphabet="x-sampa" ph='sl_jizn"ul'/>
+поранятся=<phoneme alphabet="x-sampa" ph='p6r"an_j@ts@'/>
+чертога=<phoneme alphabet="x-sampa" ph='tSert"og@'/>
+настое=<phoneme alphabet="x-sampa" ph='n6st"oj@'/>
+спою=<phoneme alphabet="x-sampa" ph='sp6j"u'/>
+искорёженная=<phoneme alphabet="x-sampa" ph='isk6r_j"oZ\@n@j@'/>
+нежилась=<phoneme alphabet="x-sampa" ph='n_j"eZ\I\l@s_j'/>
+$гЕрой=<phoneme alphabet="x-sampa" ph='g_j"er@j'/>
+$трОя=<phoneme alphabet="x-sampa" ph='tr"oj@'/>
