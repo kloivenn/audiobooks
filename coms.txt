@@ -1,5 +1,6 @@
-python3 changeText/apply_dicts.py -i withErrors/raw.txt -o withErrors/1_firstStep.txt -dl lists/full.txt
-python3 changeText/apply_and_find.py -i withErrors/raw.txt -o withErrors/1_find.txt -dl lists/full.txt
+python3 changeText/find_occurances.py -t text/text.txt -o withErrors/phrases.txt -ph withErrors/raw.txt
+python3 changeText/apply_dicts.py -i withErrors/phrases.txt -o withErrors/1_firstStep.txt -dl lists/full.txt
+python3 changeText/apply_and_find.py -i withErrors/phrases.txt -o withErrors/1_find.txt -dl lists/full.txt
 python3 changeText/change_homs.py -d all_omographs.hmg -i withErrors/1_firstStep.txt -n 1 -log withErrors/2_homs.txt
 python3 changeText/change_homs.py -d all_omographs.hmg -i withErrors/1_firstStep.txt -n 1 -log withErrors/2_homs.txt -o withErrors/2_secondStep.txt
 python3 changeText/apply_dic.py -d pron.dic -i withErrors/2_secondStep.txt -o withErrors/3_thirdStep.txt
