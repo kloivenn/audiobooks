@@ -1252,3 +1252,49 @@ $Ротгера=<phoneme alphabet="x-sampa" ph='r"otg_jer@'/>
 $Ротгеру=<phoneme alphabet="x-sampa" ph='r"otg_jerU'/>
 $Ротгером=<phoneme alphabet="x-sampa" ph='r"otg_jer@m'/>
 $Ротгере=<phoneme alphabet="x-sampa" ph='r"otg_jer_je'/>
+$Тина=Тина
+$Тайлер=Тайлер
+$Уильямс=Уильямс
+$Эмили=<phoneme alphabet="x-sampa" ph='"Em_jil_ji'/>
+$Бест=<phoneme alphabet="x-sampa" ph='b"Est'/>
+$Беста=<phoneme alphabet="x-sampa" ph='b"Est@'/>
+$Бесту=<phoneme alphabet="x-sampa" ph='b"EstU'/>
+$Бестом=<phoneme alphabet="x-sampa" ph='b"Est@m'/>
+$Бесте=<phoneme alphabet="x-sampa" ph='b"Est_je'/>
+$Скорпи=<phoneme alphabet="x-sampa" ph='sk"orp_ji'/>
+$Каин=Каин
+$Каине=<phoneme alphabet="x-sampa" ph='k"ain_je'/>
+$Билл=Билл
+$Скорпиус=<phoneme alphabet="x-sampa" ph='sk"orp_jiUs'/>
+$Скорпиуса=<phoneme alphabet="x-sampa" ph='sk"orp_jiUs@'/>
+$Скорпиусу=<phoneme alphabet="x-sampa" ph='sk"orp_jiUsU'/>
+$Скорпиусом=<phoneme alphabet="x-sampa" ph='sk"orp_jiUs@m'/>
+$Скорпиусе=<phoneme alphabet="x-sampa" ph='sk"orp_jiUs_je'/>
+$Хэллоуин=Хэллоуин
+$Люцифер=Люцифер
+$Люцифера=<phoneme alphabet="x-sampa" ph='l_jUtsI\f_j"er@'/>
+$Люцифером=<phoneme alphabet="x-sampa" ph='l_jUtsI\f_j"er@m'/>
+$Шнайзел=<phoneme alphabet="x-sampa" ph='S\n"ajz_jel'/>
+$Шнайзела=<phoneme alphabet="x-sampa" ph='S\n"ajz_jel@'/>
+$Шнайзелу=<phoneme alphabet="x-sampa" ph='S\n"ajz_jelU'/>
+$Шнайзелом=<phoneme alphabet="x-sampa" ph='S\n"ajz_jel@m'/>
+$Шнайзеле=<phoneme alphabet="x-sampa" ph='S\n"ajz_jel_je'/>
+$Пруссия=Пруссия
+$Жаклин=Жаклин
+$Чандлер=Чандлер
+$Маркус=Маркус
+$Маркусу=<phoneme alphabet="x-sampa" ph='m"arkUsU'/>
+$Маркусе=<phoneme alphabet="x-sampa" ph='m"arkUs_je'/>
+$Вуд=Вуд
+$Джексон=Джексон
+$Джексону=<phoneme alphabet="x-sampa" ph='dZ\"Eks@nU'/>
+$Джексоном=<phoneme alphabet="x-sampa" ph='dZ\"Eks@n@m'/>
+$Джексоне=<phoneme alphabet="x-sampa" ph='dZ\"Eks@n_je'/>
+$Германия=Германия
+$Локи=Локи
+$Маркл=Маркл
+$Даниэль=<phoneme alphabet="x-sampa" ph='d@n_ji"El_j'/>
+$Даниэля=<phoneme alphabet="x-sampa" ph='d@n_ji"El_j@'/>
+$Даниэлю=<phoneme alphabet="x-sampa" ph='d@n_ji"El_jU'/>
+$Даниэле=<phoneme alphabet="x-sampa" ph='d@n_ji"El_je'/>
+$Даниэлем=<phoneme alphabet="x-sampa" ph='d@n_ji"El_jem'/>
