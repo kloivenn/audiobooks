@@ -902,7 +902,7 @@ $вЫводившей=<phoneme ph="vˈɨvədʲɪfʂᵻj"/>
 $выводИли=<phoneme ph="vᵻvɐdʲˈilʲɪ"/>
 $вывОдите=<phoneme ph="vᵻvˈodʲɪtʲɪ"/>
 $выводИте=<phoneme ph="vᵻvɐdʲˈitʲɪ"/>
-$выводИть=<phoneme ph="vᵻvɐdʲˈitʲ"/>
+выводить=<phoneme ph="vᵻvɐdʲˈitʲ"/>
 $вывозиИть=<phoneme ph="vᵻvɐzʲˈitʲ"/>
 $вЫвозил=<phoneme ph="vˈɨvəzʲɪl"/>
 $вывозИл=<phoneme ph="vᵻvɐzʲˈil"/>
@@ -1597,7 +1597,7 @@ $зУбов=<phoneme ph="ʐˈubəf"/>
 $зубрИм=<phoneme ph="zʊbrʲˈi m"/>
 $иглЫ=<phoneme ph="ɪgl'ɨ"/>
 $игрЫ=<phoneme ph="ɪgr'ɨ"/>
-$Игры=<phoneme ph="ˈiɡrᵻ"/>
+$Игры=<phoneme alphabet="x-sampa" ph='"igrI\'/>
 $избЕгавший=<phoneme ph="ɪzbʲˈeɡəfʂᵻj"/>
 $избЫ=<phoneme ph="ɪzbˈɨ"/>
 $извАянный=<phoneme ph="ɪzvˈaʲɪnnːᵻj"/>
@@ -2344,7 +2344,7 @@ $Облака=<phoneme ph="ˈobləkə"/>
 $Облачен=<phoneme ph="ˈoblət͡ɕɪn"/>
 $Облачка=<phoneme ph="ˈoblət͡ɕkə"/>
 $облИл=<phoneme ph="ɐblʲˈil"/>
-$облИли=<phoneme ph="ɐblʲˈilʲɪ"/>
+облили=<phoneme ph="ɐblʲˈilʲɪ"/>
 $облИтым=<phoneme ph="ɐblʲˈitᵻm"/>
 $облОмитесь=<phoneme ph="ɐblˈomʲɪtʲɪsʲ"/>
 $облОмиться=<phoneme ph="ɐblˈomʲɪt͡sə"/>
@@ -2445,7 +2445,7 @@ $Ордена=<phoneme ph="'ordʲɪnə"/>
 $Ордера=<phoneme ph="ˈordʲɪrə"/>
 $ордерА=<phoneme ph="ɐrdʲɪrˈa"/>
 $ордЫ=<phoneme ph="ɐrd'ɨ"/>
-$осеклАсь=<phoneme ph="ɐsʲɪklˈasʲ"/>
+осеклась=<phoneme ph="ɐsʲɪklˈasʲ"/>
 $осЕл=<phoneme ph="ɐsʲˈel"/>
 $осенИ=<phoneme ph="ɐsʲɪnˈi"/>
 $Оси=<phoneme ph="'osʲɪ"/>
@@ -3300,7 +3300,7 @@ $прокатИтся=<phoneme ph="prɐkɐtʲˈit͡sə"/>
 $прОклят=<phoneme ph="prˈoklʲɪt"/>
 $прОклята=<phoneme ph="pr'oklʲitə"/>
 $прОклято=<phoneme ph="pr'oklʲitə"/>
-$прОкляты=<phoneme ph="prˈoklʲɪtᵻ"/>
+прокляты=<phoneme ph="prˈoklʲɪtᵻ"/>
 $прОклятые=<phoneme ph="prˈoklʲətᵻjə"/>
 $прОклятый=<phoneme ph="prˈoklʲətᵻj"/>
 $проколОв=<phoneme ph="prəkɐlˈof"/>
@@ -3454,7 +3454,7 @@ $пушкУ=<phoneme ph="pʊʂ kˈu"/>
 $пУшку=<phoneme ph="pˈuʂkʊ"/>
 $пУщу=<phoneme ph="pˈuɕːʊ"/>
 $пчелЫ=<phoneme ph="pt͡ɕɪl'ɨ"/>
-$пшенА=<phoneme ph="pʂᵻnˈa"/>
+пшена=<phoneme ph="pʂᵻnˈa"/>
 $пылИ=<phoneme ph="pɨlʲˈi"/>
 $пЫлу=<phoneme ph="p'ɨlʊ"/>
 $пьЯни=<phoneme ph="pʲjˈænʲɪ"/>
@@ -3718,7 +3718,6 @@ $сАмом=<phoneme ph="sˈaməm"/>
 $самОм=<phoneme ph="sɐmˈom"/>
 $сАмому=<phoneme ph="s ˈaməmʊ"/>
 $самомУ=<phoneme ph="səmɐmˈu"/>
-$сАней=<phoneme ph="sˈa nʲɪj"/>
 $санинстрУкторам=<phoneme ph="sən instr'uktərəm"/>
 $санинстрУкторами=<phoneme ph="sən instr'uktərəmʲi"/>
 $санинстрУкторах=<phoneme ph="sən instr'uktərəx"/>
@@ -4187,7 +4186,7 @@ $стропУ=<phoneme ph="strɐpˈu"/>
 $стропЫ=<phoneme ph="strɐpˈɨ"/>
 $строфЫ=<phoneme ph="strɐfˈɨ"/>
 $стрОчка=<phoneme ph="sːtrˈot͡ɕkə"/>
-$стрОчкам=<phoneme ph="s trˈot͡ɕkəm"/>
+строчкам=<phoneme ph="s trˈot͡ɕkəm"/>
 $стрОчками=<phoneme ph="strˈot͡ɕkəmʲɪ"/>
 $стрОчках=<phoneme ph="strˈot͡ɕkəx"/>
 $стрОчке=<phoneme ph="strˈot͡ɕkʲɪ"/>
@@ -9425,7 +9424,6 @@ zippo=<phoneme ph="zʲ'ippə"/>
 самвела=<phoneme ph="sɐmvʲˈelə"/>
 самсунговский=<phoneme ph="sɐmsˈunɡəfskʲɪj"/>
 сандрой=<phoneme ph="sɐndrəj"/>
-саней=<phoneme ph="sˈanʲɪj"/>
 санею=<phoneme ph="s'anʲi ju"/>
 сании=<phoneme ph="sˈanʲɪɪ"/>
 санина=<phoneme ph="sˈanʲɪnə"/>
@@ -24979,7 +24977,6 @@ oolong=<phoneme ph="ul'un"/>
 золотопогонник=<phoneme ph="zələtəpɐɡˈonnʲːɪk"/>
 золотце=<phoneme ph="zˈolət͡sːᵻ"/>
 золотыми=<phoneme ph="zəlɐtˈɨ mʲɪ"/>
-золотых=<phoneme ph="zɐlɐt'ɨx"/>
 золотясь=<phoneme ph="zəlɐtjˈæsʲ"/>
 золотят=<phoneme ph="zəlɐtʲˈæt"/>
 золотятся=<phoneme ph="zəlɐtʲˈæt͡sə"/>
@@ -53945,3 +53942,10 @@ $добротЫ=<phoneme alphabet="x-sampa" ph='d6br6t"I\'/>
 малышку=<phoneme alphabet="x-sampa" ph='m6l"I\SkU'/>
 тяготы=<phoneme alphabet="x-sampa" ph='t_j"ag@tI\'/>
 благословен=<phoneme alphabet="x-sampa" ph='bl6g@sl6v_j"en'/>
+землисто=<phoneme alphabet="x-sampa" ph='z_jeml_j"ist@'/>
+невостребованность=<phoneme alphabet="x-sampa" ph='n_jev6str_j"eb@v@nn@st_j'/>
+ощущавшая=<phoneme alphabet="x-sampa" ph='6s\:Us\:"avS\@j@'/>
+дёрнувшегося=<phoneme alphabet="x-sampa" ph='d_j"ornUvS\ev@s_j@'/>
+возмутила=<phoneme alphabet="x-sampa" ph='v@zmUt_j"il@'/>
+вкушать=<phoneme alphabet="x-sampa" ph='vkUS\"at_j'/>
+взвывают=<phoneme alphabet="x-sampa" ph='vzvI\v"ajUt'/>
